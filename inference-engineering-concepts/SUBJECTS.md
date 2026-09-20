@@ -1,10 +1,12 @@
 # Inference engineering — subject index
 
-All **78 subjects** are visible here: **T1.01–T1.45** and **T2.01–T2.33**. Existing folder names and subject IDs are retained. T1.01 contains expanded notes; the other pages are preparation outlines, with existing seed notes preserved where present.
+All **85 subjects** are visible here: **T1.01–T1.45**, **T2.01–T2.33** and **T3.01–T3.07**. Existing folder names and subject IDs are retained. T1.01 contains expanded notes; the other pages are preparation outlines, with existing seed notes preserved where present.
 
 [Coverage, priorities and workload contexts](COVERAGE.md) · [Research sources and evidence boundaries](RESEARCH_CONTEXT.md)
 
 Start with the lifecycle and measurement spine, then select a workload path in the coverage guide. Numeric order is a catalog, not a prerequisite sequence.
+
+Tier meanings: **T1** = core production inference engineering; **T2** = deeper kernel/runtime/optimization specialization and supporting systems; **T3** = emerging model architectures and non-standard inference systems. T3 IDs are assigned in the user-supplied order; existing T1/T2 IDs are unchanged. Tier membership is not a maturity rating.
 
 | Subject | Topic | Material |
 |---|---|---|
@@ -55,7 +57,7 @@ Start with the lifecycle and measurement spine, then select a workload path in t
 | [T1.45](T1.45%20Inference%20Economics/README.md) | Inference Economics | Preparation outline |
 | [T2.01](T2.01%20Triton%20Kernel%20Programming/README.md) | Triton Kernel Programming | Preparation outline |
 | [T2.02](T2.02%20CUTLASS%20-%20CuTe/README.md) | CUTLASS - CuTe | Preparation outline |
-| [T2.03](T2.03%20torch.compile%20/README.md) | torch.compile | Preparation outline |
+| [T2.03](T2.03%20torch.compile%20/README.md) | torch.compile / CUDA Graphs | Preparation outline |
 | [T2.04](T2.04%20Kernel%20Fusion%20/README.md) | Kernel Fusion | Preparation outline |
 | [T2.05](T2.05%20Advanced%20Quantization/README.md) | Advanced Quantization | Preparation outline |
 | [T2.06](T2.06%20KVCache%20Quantization/README.md) | KVCache Quantization | Preparation outline |
@@ -86,3 +88,15 @@ Start with the lifecycle and measurement spine, then select a workload path in t
 | [T2.31](T2.31%20Colocated%20vs%20disaggregated%20RL/README.md) | Colocated vs disaggregated RL | Preparation outline |
 | [T2.32](T2.32%20AMD%20ROCm%20inference/README.md) | AMD ROCm inference | Preparation outline |
 | [T2.33](T2.33%20Benchmark%20Methodology%20/README.md) | Benchmark Methodology | Preparation outline |
+
+## Tier 3 — architecture and serving extensions
+
+| Subject | Topic | Material |
+|---|---|---|
+| [T3.01](T3.01%20Mamba%20and%20State%20Space%20Models/README.md) | Mamba and State Space Models | Preparation outline |
+| [T3.02](T3.02%20Hybrid%20Mamba%20and%20Attention%20Architectures/README.md) | Hybrid Mamba and Attention Architectures | Preparation outline |
+| [T3.03](T3.03%20Diffusion%20Language%20Models/README.md) | Diffusion Language Models | Preparation outline |
+| [T3.04](T3.04%20Image%20Diffusion%20Inference/README.md) | Image Diffusion Inference | Preparation outline |
+| [T3.05](T3.05%20Video%20Generation%20Inference/README.md) | Video Generation Inference | Preparation outline |
+| [T3.06](T3.06%20Multimodal%20Inference/README.md) | Multimodal Inference | Preparation outline |
+| [T3.07](T3.07%20Speech%20Inference/README.md) | Speech Inference | Preparation outline |

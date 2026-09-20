@@ -1,4 +1,4 @@
-# T2.03 — torch.compile
+# T2.03 — torch.compile / CUDA Graphs
 
 Status: **Preparation outline**. This page defines coverage to develop; it does not record completed experiments or demonstrated mastery.
 
@@ -10,6 +10,8 @@ Status: **Preparation outline**. This page defines coverage to develop; it does 
 - compilation and shape specialization.
 - warmup.
 - recompilation costs.
+
+- CUDA Graph capture and replay: stable memory addresses, shape constraints, capture safety and launch-overhead reduction; distinguish CUDA Graphs from compiler graph capture.
 
 ## Changed-case question
 

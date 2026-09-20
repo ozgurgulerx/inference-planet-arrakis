@@ -321,3 +321,26 @@
 !/inference-engineering-concepts/SUBJECTS.md
 !/inference-engineering-concepts/COVERAGE.md
 !/inference-engineering-concepts/RESEARCH_CONTEXT.md
+
+# Exact user-requested Tier 3 architecture and modality extensions.
+!/inference-engineering-concepts/T3.01 Mamba and State Space Models/
+/inference-engineering-concepts/T3.01 Mamba and State Space Models/*
+!/inference-engineering-concepts/T3.01 Mamba and State Space Models/README.md
+!/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/
+/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/*
+!/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/README.md
+!/inference-engineering-concepts/T3.03 Diffusion Language Models/
+/inference-engineering-concepts/T3.03 Diffusion Language Models/*
+!/inference-engineering-concepts/T3.03 Diffusion Language Models/README.md
+!/inference-engineering-concepts/T3.04 Image Diffusion Inference/
+/inference-engineering-concepts/T3.04 Image Diffusion Inference/*
+!/inference-engineering-concepts/T3.04 Image Diffusion Inference/README.md
+!/inference-engineering-concepts/T3.05 Video Generation Inference/
+/inference-engineering-concepts/T3.05 Video Generation Inference/*
+!/inference-engineering-concepts/T3.05 Video Generation Inference/README.md
+!/inference-engineering-concepts/T3.06 Multimodal Inference/
+/inference-engineering-concepts/T3.06 Multimodal Inference/*
+!/inference-engineering-concepts/T3.06 Multimodal Inference/README.md
+!/inference-engineering-concepts/T3.07 Speech Inference/
+/inference-engineering-concepts/T3.07 Speech Inference/*
+!/inference-engineering-concepts/T3.07 Speech Inference/README.md

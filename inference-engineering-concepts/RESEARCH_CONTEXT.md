@@ -36,3 +36,7 @@ These sources support mechanism and implementation checks. A feature in one vers
 Read the three supplied sources before revising scope; preserve stable subject IDs and existing authored notes. Map new concepts to both a subject and a workload context. Distinguish established mechanisms, version-specific implementations and research proposals. For quantitative claims, retain hardware, model, precision, concurrency, input/output distributions, cache state, quality constraints and measurement boundary. Never copy a paper's peak gain into a general expectation.
 
 For each advanced addition include a causal mechanism, a boundary or counterexample, an observable consequence and a decision that changes under explicit constraints. Future full lessons should add direct section-level citations and checked calculations; the present outlines are topic inventories, not comprehensive evidence-backed golden answers.
+
+## Tier 3 scope extension
+
+The user-supplied architecture/modality list is now numbered T3.01–T3.07 in its original order: SSM/Mamba, hybrid Mamba/attention, diffusion language, image diffusion, video generation, multimodal and speech. This extends the September report’s hybrid/diffusion/omni theme (pp. 15–16); it does not imply that the report fully covers each subject. Each new outline links primary source starting points. The catalog contains 85 subjects; these extensions do not renumber T1 or T2.

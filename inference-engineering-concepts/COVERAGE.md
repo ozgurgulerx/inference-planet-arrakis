@@ -1,6 +1,6 @@
 # Coverage, priorities and workload contexts
 
-[All 78 subjects](SUBJECTS.md) · [Source context](RESEARCH_CONTEXT.md)
+[All 85 subjects](SUBJECTS.md) · [Source context](RESEARCH_CONTEXT.md)
 
 This is a coverage plan, not a record of completed preparation. T1.01 has expanded notes; the remaining subjects have explicit scope outlines and changed-case questions. Subject coverage does not imply production experience or a professional percentile.
 
@@ -11,6 +11,8 @@ This is a coverage plan, not a record of completed preparation. T1.01 has expand
 3. **Model and runtime choices:** T1.02, T1.32–T1.40; T2.05–T2.08 and T2.19–T2.22. Compare quality, compatibility, state footprint and useful throughput.
 4. **Production control:** T2.12–T2.18 and T2.24–T2.25. Include cancellation, tenant isolation, bounded queues, cold starts, failures and rollout behavior.
 5. **Choose specialist branches:** kernels/compiler work T2.01–T2.04; storage T2.09–T2.11; advanced MoE T2.23; post-training/rollouts T2.26–T2.31; AMD portability T2.32. These are valuable when the workload requires them, not prerequisites for every deployment.
+
+6. **Architecture and modality extensions:** T3.01 SSM/Mamba → T3.02 hybrid Mamba/attention; T3.03 diffusion language models; T3.04 image diffusion → T3.05 video generation; T3.06 multimodal → T3.07 speech. These are branches after the relevant foundations, not a requirement to finish every T2 subject first.
 
 For each subject, progress from explaining the mechanism to a calculation or prediction, then a diagnosis and a decision under changed constraints. Record assumptions and falsifying evidence. Do not substitute a memorized answer for an independently reasoned changed case.
 
@@ -27,7 +29,7 @@ The September report supplies a hypothesis and topic inventory. Priority below i
 | FP8, FP4 and mixed precision across weights, activations and KV | T1.10–T1.12, T1.32, T1.39; T2.02, T2.05–T2.06 | Separate weight-only and activation/KV formats; check native kernels and model support. Validate task quality and long-context behavior as well as capacity. |
 | Stateful routing and session-aware control | T1.06, T1.09, T1.40; T2.07–T2.08, T2.12–T2.18 | Balance cache affinity against queue length, topology and fairness. Include tool pauses, adapter/model identity and client cancellation. |
 | GPU-resident control and persistent kernels | T1.13–T1.14, T1.41–T1.43; T2.01–T2.04 | Establish that host/launch overhead is material first. Compare flexibility, occupancy, supported shapes and operational debuggability. Full CPU-bypass designs remain a research branch. |
-| Hybrid state, diffusion and multimodal stage graphs | T1.01–T1.03, T1.16, T1.29–T1.31; T2.12, T2.17–T2.18, T2.21–T2.22 | Identify each stage's state and scheduling contract. Recurrent state is not ordinary KV; diffusion execution cannot be assumed to follow a token-by-token autoregressive loop. |
+| Hybrid state, diffusion and multimodal stage graphs | T1.01–T1.03, T1.16, T1.29–T1.31; T2.12, T2.17–T2.18, T2.21–T2.22; T3.01–T3.07 | Identify each stage's state and scheduling contract. Recurrent state is not ordinary KV; diffusion execution cannot be assumed to follow a token-by-token autoregressive loop. |
 | Sparse attention and adaptive KV compression | T1.03–T1.04, T1.34; T2.05–T2.06, T2.21, T2.33 | Separate exact IO optimization from approximate selection/compression. Test quality and selection overhead; paper gains do not establish portable production gains. |
 
 All themes also require T1.08–T1.09 and T2.33: representative distributions, SLO goodput, quality and controlled comparisons.
@@ -42,16 +44,19 @@ All themes also require T1.08–T1.09 and T2.33: representative distributions, S
 | Repeated prefixes and multi-turn sessions | T2.07–T2.08, T2.12–T2.15 | When does affinity overload a worker; what invalidates cached state? |
 | Agents and tool pauses | T1.01, T1.09, T2.08–T2.09, T2.12–T2.14 | Should state stay resident while a tool runs, and who owns cancellation? |
 | Constrained / structured generation | T1.01, T1.09, T1.37–T1.39, T2.33 | How do constraint-processing overhead and invalid outputs affect useful goodput? |
-| Multimodal and hybrid models | T1.01–T1.03, T1.16, T2.17–T2.22 | Which preprocessing, encoder, decoder and non-KV state costs were omitted? |
+| Multimodal and hybrid models | T1.01–T1.03, T1.16, T2.17–T2.22, T3.01–T3.02, T3.06 | Which preprocessing, encoder, decoder and non-KV state costs were omitted? |
 | High-throughput offline work | T1.06, T1.09, T1.44–T1.45, T2.33 | Does relaxing latency change the preferred batch, parallelism or precision? |
 | Bursty multi-tenant serving | T1.06–T1.09, T2.12–T2.18, T2.20 | Who gets delayed or rejected, and are isolation and fairness preserved? |
 | Multi-node MoE | T1.18–T1.20, T1.24–T1.28, T1.35, T2.23–T2.25 | Does skew or congestion dominate after increasing the expert-parallel group? |
 | Cold starts, updates and failures | T2.15–T2.20, T2.30 | What happens to partially streamed requests and state from an old weight version? |
 | RL rollout generation | T2.26–T2.31 | Does faster generation increase policy staleness or interfere with training? |
 | Alternate GPU platform | T2.32, T1.41–T1.45, T2.33 | Are quality, workload, precision and software support equivalent in the comparison? |
+| Iterative language generation | T3.03, T1.08, T2.33 | Do fewer iterations preserve useful quality, and when is output stable enough to stream? |
+| Image and video generation | T3.04–T3.05, T2.22, T2.25, T2.33 | Which costs scale with resolution, duration, attention layout and model evaluations? |
+| Real-time speech | T3.07, T2.13–T2.14, T2.18 | Can good average throughput hide audio gaps or failed interruption handling? |
 
 ## Remaining coverage boundaries
 
 Security and correctness cut across the catalog: request limits and validation (T1.01/T2.13), tenant-safe cache identity (T2.07–T2.08), adapter isolation (T2.20), cancellation/backpressure (T2.14), and versioned state/weights (T2.18/T2.30). These are preparation requirements, not assertions that a particular implementation provides them.
 
-The catalog does not yet contain full lessons or validated labs for 77 outline subjects. Multimodal, hybrid and diffusion serving are cross-cutting extensions rather than dedicated curricula. Compiler, networking, storage, distributed training and security are included to explain inference consequences; complete specialist curricula would require separate scope. Source-suggested frontier techniques need individual primary-paper review before detailed implementation or benchmark claims are added.
+The catalog does not yet contain full lessons or validated labs for 84 outline subjects. T3.01–T3.07 now provide dedicated architecture and modality extension outlines, connected to the T1/T2 serving foundations. Compiler, networking, storage, distributed training and security are included to explain inference consequences; complete specialist curricula would require separate scope. Source-suggested frontier techniques need individual primary-paper review before detailed implementation or benchmark claims are added.
