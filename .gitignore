@@ -4,14 +4,14 @@
 # Tracking policy and public navigation.
 !/.gitignore
 !/README.md
-!/days/
-/days/*
-!/days/README.md
+!/01-days/
+/01-days/*
+!/01-days/README.md
 
 # One public README per numbered, dated study day; no attachments or extras.
-!/days/day-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]-*/
-/days/day-*/*
-!/days/day-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]-*/README.md
+!/01-days/day-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]-*/
+/01-days/day-*/*
+!/01-days/day-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]-*/README.md
 
 # Exact assets required by the public READMEs.
 !/assets/
@@ -19,1019 +19,1080 @@
 !/assets/dune-tokens-must-flow.png
 
 # User-selected public model study workspaces; private files stay denied.
-!/models/
-/models/*
-!/models/README.md
-!/models/01-qwen3.8-27b/
-/models/01-qwen3.8-27b/*
-!/models/01-qwen3.8-27b/README.md
-!/models/01-qwen3.8-27b/architecture.md
-!/models/01-qwen3.8-27b/experiments/
-/models/01-qwen3.8-27b/experiments/*
-!/models/01-qwen3.8-27b/experiments/README.md
-!/models/01-qwen3.8-27b/experiments/experiment-[0-9][0-9][0-9]-*/
-/models/01-qwen3.8-27b/experiments/experiment-*/*
-!/models/01-qwen3.8-27b/experiments/experiment-[0-9][0-9][0-9]-*/README.md
-!/models/02-glm-4.7-flash/
-/models/02-glm-4.7-flash/*
-!/models/02-glm-4.7-flash/README.md
-!/models/02-glm-4.7-flash/architecture.md
-!/models/02-glm-4.7-flash/experiments/
-/models/02-glm-4.7-flash/experiments/*
-!/models/02-glm-4.7-flash/experiments/README.md
-!/models/02-glm-4.7-flash/experiments/experiment-[0-9][0-9][0-9]-*/
-/models/02-glm-4.7-flash/experiments/experiment-*/*
-!/models/02-glm-4.7-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
-!/models/03-glm-5.3-flash/
-/models/03-glm-5.3-flash/*
-!/models/03-glm-5.3-flash/README.md
-!/models/03-glm-5.3-flash/architecture.md
-!/models/03-glm-5.3-flash/experiments/
-/models/03-glm-5.3-flash/experiments/*
-!/models/03-glm-5.3-flash/experiments/README.md
-!/models/03-glm-5.3-flash/experiments/experiment-[0-9][0-9][0-9]-*/
-/models/03-glm-5.3-flash/experiments/experiment-*/*
-!/models/03-glm-5.3-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
-!/models/04-deepseek-v4.1-flash/
-/models/04-deepseek-v4.1-flash/*
-!/models/04-deepseek-v4.1-flash/README.md
-!/models/04-deepseek-v4.1-flash/architecture.md
-!/models/04-deepseek-v4.1-flash/experiments/
-/models/04-deepseek-v4.1-flash/experiments/*
-!/models/04-deepseek-v4.1-flash/experiments/README.md
-!/models/04-deepseek-v4.1-flash/experiments/experiment-[0-9][0-9][0-9]-*/
-/models/04-deepseek-v4.1-flash/experiments/experiment-*/*
-!/models/04-deepseek-v4.1-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
-!/models/05-nemotron-3.5-lightning/
-/models/05-nemotron-3.5-lightning/*
-!/models/05-nemotron-3.5-lightning/README.md
-!/models/05-nemotron-3.5-lightning/architecture.md
-!/models/05-nemotron-3.5-lightning/experiments/
-/models/05-nemotron-3.5-lightning/experiments/*
-!/models/05-nemotron-3.5-lightning/experiments/README.md
-!/models/05-nemotron-3.5-lightning/experiments/experiment-[0-9][0-9][0-9]-*/
-/models/05-nemotron-3.5-lightning/experiments/experiment-*/*
-!/models/05-nemotron-3.5-lightning/experiments/experiment-[0-9][0-9][0-9]-*/README.md
+!/02-models/
+/02-models/*
+!/02-models/README.md
+!/02-models/01-qwen3.8-27b/
+/02-models/01-qwen3.8-27b/*
+!/02-models/01-qwen3.8-27b/README.md
+!/02-models/01-qwen3.8-27b/architecture.md
+!/02-models/01-qwen3.8-27b/experiments/
+/02-models/01-qwen3.8-27b/experiments/*
+!/02-models/01-qwen3.8-27b/experiments/README.md
+!/02-models/01-qwen3.8-27b/experiments/experiment-[0-9][0-9][0-9]-*/
+/02-models/01-qwen3.8-27b/experiments/experiment-*/*
+!/02-models/01-qwen3.8-27b/experiments/experiment-[0-9][0-9][0-9]-*/README.md
+!/02-models/02-glm-4.7-flash/
+/02-models/02-glm-4.7-flash/*
+!/02-models/02-glm-4.7-flash/README.md
+!/02-models/02-glm-4.7-flash/architecture.md
+!/02-models/02-glm-4.7-flash/experiments/
+/02-models/02-glm-4.7-flash/experiments/*
+!/02-models/02-glm-4.7-flash/experiments/README.md
+!/02-models/02-glm-4.7-flash/experiments/experiment-[0-9][0-9][0-9]-*/
+/02-models/02-glm-4.7-flash/experiments/experiment-*/*
+!/02-models/02-glm-4.7-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
+!/02-models/03-glm-5.3-flash/
+/02-models/03-glm-5.3-flash/*
+!/02-models/03-glm-5.3-flash/README.md
+!/02-models/03-glm-5.3-flash/architecture.md
+!/02-models/03-glm-5.3-flash/experiments/
+/02-models/03-glm-5.3-flash/experiments/*
+!/02-models/03-glm-5.3-flash/experiments/README.md
+!/02-models/03-glm-5.3-flash/experiments/experiment-[0-9][0-9][0-9]-*/
+/02-models/03-glm-5.3-flash/experiments/experiment-*/*
+!/02-models/03-glm-5.3-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
+!/02-models/04-deepseek-v4.1-flash/
+/02-models/04-deepseek-v4.1-flash/*
+!/02-models/04-deepseek-v4.1-flash/README.md
+!/02-models/04-deepseek-v4.1-flash/architecture.md
+!/02-models/04-deepseek-v4.1-flash/experiments/
+/02-models/04-deepseek-v4.1-flash/experiments/*
+!/02-models/04-deepseek-v4.1-flash/experiments/README.md
+!/02-models/04-deepseek-v4.1-flash/experiments/experiment-[0-9][0-9][0-9]-*/
+/02-models/04-deepseek-v4.1-flash/experiments/experiment-*/*
+!/02-models/04-deepseek-v4.1-flash/experiments/experiment-[0-9][0-9][0-9]-*/README.md
+!/02-models/05-nemotron-3.5-lightning/
+/02-models/05-nemotron-3.5-lightning/*
+!/02-models/05-nemotron-3.5-lightning/README.md
+!/02-models/05-nemotron-3.5-lightning/architecture.md
+!/02-models/05-nemotron-3.5-lightning/experiments/
+/02-models/05-nemotron-3.5-lightning/experiments/*
+!/02-models/05-nemotron-3.5-lightning/experiments/README.md
+!/02-models/05-nemotron-3.5-lightning/experiments/experiment-[0-9][0-9][0-9]-*/
+/02-models/05-nemotron-3.5-lightning/experiments/experiment-*/*
+!/02-models/05-nemotron-3.5-lightning/experiments/experiment-[0-9][0-9][0-9]-*/README.md
 
 # Exact image used by the Qwen model README.
-!/models/01-qwen3.8-27b/qwen3.8-27b-model-map.webp
+!/02-models/01-qwen3.8-27b/qwen3.8-27b-model-map.webp
 
 # Exact requested Qwen technical study backbone.
-!/models/01-qwen3.8-27b/list01-study-levels.md
+!/02-models/01-qwen3.8-27b/list01-study-levels.md
 
 # Exact user-authorized T1.01 lifecycle README; other concept material stays private.
-!/tech/
-/tech/*
-!/tech/T1.01 LLM Inference Lifecycle/
-/tech/T1.01 LLM Inference Lifecycle/*
-!/tech/T1.01 LLM Inference Lifecycle/README.md
+!/03-tech/
+/03-tech/*
+!/03-tech/T1.X - Inference Engineering Core/
+/03-tech/T1.X - Inference Engineering Core/*
+!/03-tech/T1.X - Inference Engineering Core/README.md
+!/03-tech/T2.X - Inference Engineering Extended/
+/03-tech/T2.X - Inference Engineering Extended/*
+!/03-tech/T2.X - Inference Engineering Extended/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/
+/03-tech/T3.X - Emerging Architectures and Modalities/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/README.md
 
 # Exact user-requested subject outlines and technical coverage indexes.
-!/tech/T1.23 NUMA/
-/tech/T1.23 NUMA/*
-!/tech/T1.23 NUMA/README.md
-!/tech/T1.13 CUDA Fundamentals /
-/tech/T1.13 CUDA Fundamentals /*
-!/tech/T1.13 CUDA Fundamentals /README.md
-!/tech/T2.18 Fault Tolerance/
-/tech/T2.18 Fault Tolerance/*
-!/tech/T2.18 Fault Tolerance/README.md
-!/tech/T2.17 Multi-Node serving/
-/tech/T2.17 Multi-Node serving/*
-!/tech/T2.17 Multi-Node serving/README.md
-!/tech/T1.42 GPU Observability/
-/tech/T1.42 GPU Observability/*
-!/tech/T1.42 GPU Observability/README.md
-!/tech/T1.09 Workload Characterization/
-/tech/T1.09 Workload Characterization/*
-!/tech/T1.09 Workload Characterization/README.md
-!/tech/T2.26 Post-training systems /
-/tech/T2.26 Post-training systems /*
-!/tech/T2.26 Post-training systems /README.md
-!/tech/T1.31 prefill /
-/tech/T1.31 prefill /*
-!/tech/T1.31 prefill /README.md
-!/tech/T1.41 Profiling/
-/tech/T1.41 Profiling/*
-!/tech/T1.41 Profiling/README.md
-!/tech/T1.06 Continous Batching /
-/tech/T1.06 Continous Batching /*
-!/tech/T1.06 Continous Batching /README.md
-!/tech/T2.14 Backpressure/
-/tech/T2.14 Backpressure/*
-!/tech/T2.14 Backpressure/README.md
-!/tech/T1.05 Prefill vs Decode /
-/tech/T1.05 Prefill vs Decode /*
-!/tech/T1.05 Prefill vs Decode /README.md
-!/tech/T1.14 CUDA streams - events/
-/tech/T1.14 CUDA streams - events/*
-!/tech/T1.14 CUDA streams - events/README.md
-!/tech/T1.33 GQA - MQA - MLA /
-/tech/T1.33 GQA - MQA - MLA /*
-!/tech/T1.33 GQA - MQA - MLA /README.md
-!/tech/T1.15 Tensor parallelism/
-/tech/T1.15 Tensor parallelism/*
-!/tech/T1.15 Tensor parallelism/README.md
-!/tech/T2.01 Triton Kernel Programming/
-/tech/T2.01 Triton Kernel Programming/*
-!/tech/T2.01 Triton Kernel Programming/README.md
-!/tech/T1.40 NVIDIA Dynamo /
-/tech/T1.40 NVIDIA Dynamo /*
-!/tech/T1.40 NVIDIA Dynamo /README.md
-!/tech/T1.19 NCCL /
-/tech/T1.19 NCCL /*
-!/tech/T1.19 NCCL /README.md
-!/tech/T1.10 GPU Architecture Basics/
-/tech/T1.10 GPU Architecture Basics/*
-!/tech/T1.10 GPU Architecture Basics/README.md
-!/tech/T1.45 Inference Economics/
-/tech/T1.45 Inference Economics/*
-!/tech/T1.45 Inference Economics/README.md
-!/tech/T1.08 Serving metrics/
-/tech/T1.08 Serving metrics/*
-!/tech/T1.08 Serving metrics/README.md
-!/tech/T2.05 Advanced Quantization/
-/tech/T2.05 Advanced Quantization/*
-!/tech/T2.05 Advanced Quantization/README.md
-!/tech/T1.24 RDMA Fundamentals /
-/tech/T1.24 RDMA Fundamentals /*
-!/tech/T1.24 RDMA Fundamentals /README.md
-!/tech/T1.02 Transformer Inference Architecture/
-/tech/T1.02 Transformer Inference Architecture/*
-!/tech/T1.02 Transformer Inference Architecture/README.md
-!/tech/T1.11 GPU memory hierarchy/
-/tech/T1.11 GPU memory hierarchy/*
-!/tech/T1.11 GPU memory hierarchy/README.md
-!/tech/T2.12 Advanced Routing/
-/tech/T2.12 Advanced Routing/*
-!/tech/T2.12 Advanced Routing/README.md
-!/tech/T1.29 KV transfer/
-/tech/T1.29 KV transfer/*
-!/tech/T1.29 KV transfer/README.md
-!/tech/T2.22 Context parallelism/
-/tech/T2.22 Context parallelism/*
-!/tech/T2.22 Context parallelism/README.md
-!/tech/T1.28 GPUDirect RDMA /
-/tech/T1.28 GPUDirect RDMA /*
-!/tech/T1.28 GPUDirect RDMA /README.md
-!/tech/T1.20 Collectives/
-/tech/T1.20 Collectives/*
-!/tech/T1.20 Collectives/README.md
-!/tech/T1.17 Data parallelism/
-/tech/T1.17 Data parallelism/*
-!/tech/T1.17 Data parallelism/README.md
-!/tech/T1.37 vLLM Internals /
-/tech/T1.37 vLLM Internals /*
-!/tech/T1.37 vLLM Internals /README.md
-!/tech/T2.29 Rollout Serving/
-/tech/T2.29 Rollout Serving/*
-!/tech/T2.29 Rollout Serving/README.md
-!/tech/T2.15 Autoscaling GPU Inference/
-/tech/T2.15 Autoscaling GPU Inference/*
-!/tech/T2.15 Autoscaling GPU Inference/README.md
-!/tech/T2.23 Advanced MoE/
-/tech/T2.23 Advanced MoE/*
-!/tech/T2.23 Advanced MoE/README.md
-!/tech/T1.18 Expert parallelism/
-/tech/T1.18 Expert parallelism/*
-!/tech/T1.18 Expert parallelism/README.md
-!/tech/T1.35 MoE Inference/
-/tech/T1.35 MoE Inference/*
-!/tech/T1.35 MoE Inference/README.md
-!/tech/T2.04 Kernel Fusion /
-/tech/T2.04 Kernel Fusion /*
-!/tech/T2.04 Kernel Fusion /README.md
-!/tech/T2.11 GPUDirect Storage /
-/tech/T2.11 GPUDirect Storage /*
-!/tech/T2.11 GPUDirect Storage /README.md
-!/tech/T1.16 Pipeline paralellism/
-/tech/T1.16 Pipeline paralellism/*
-!/tech/T1.16 Pipeline paralellism/README.md
-!/tech/T1.22 NVLink NVSwitch/
-/tech/T1.22 NVLink NVSwitch/*
-!/tech/T1.22 NVLink NVSwitch/README.md
-!/tech/T2.19 Model Loading/
-/tech/T2.19 Model Loading/*
-!/tech/T2.19 Model Loading/README.md
-!/tech/T2.06 KVCache Quantization/
-/tech/T2.06 KVCache Quantization/*
-!/tech/T2.06 KVCache Quantization/README.md
-!/tech/T1.26 InfiniBand/
-/tech/T1.26 InfiniBand/*
-!/tech/T1.26 InfiniBand/README.md
-!/tech/T2.20 Multi-LoRA serving/
-/tech/T2.20 Multi-LoRA serving/*
-!/tech/T2.20 Multi-LoRA serving/README.md
-!/tech/T2.25 Topology-aware placement/
-/tech/T2.25 Topology-aware placement/*
-!/tech/T2.25 Topology-aware placement/README.md
-!/tech/T1.32 Quantization/
-/tech/T1.32 Quantization/*
-!/tech/T1.32 Quantization/README.md
-!/tech/T2.24 Network Congestion/
-/tech/T2.24 Network Congestion/*
-!/tech/T2.24 Network Congestion/README.md
-!/tech/T2.21 Long-context inference/
-/tech/T2.21 Long-context inference/*
-!/tech/T2.21 Long-context inference/README.md
-!/tech/T1.44 Capacity Planning/
-/tech/T1.44 Capacity Planning/*
-!/tech/T1.44 Capacity Planning/README.md
-!/tech/T1.07 Chunked Prefill /
-/tech/T1.07 Chunked Prefill /*
-!/tech/T1.07 Chunked Prefill /README.md
-!/tech/T1.34 Flash Attention - Optimised Attention/
-/tech/T1.34 Flash Attention - Optimised Attention/*
-!/tech/T1.34 Flash Attention - Optimised Attention/README.md
-!/tech/T2.10 NVMe - storage tiers /
-/tech/T2.10 NVMe - storage tiers /*
-!/tech/T2.10 NVMe - storage tiers /README.md
-!/tech/T2.13 Admission Control/
-/tech/T2.13 Admission Control/*
-!/tech/T2.13 Admission Control/README.md
-!/tech/T1.39 Tensor-RT LLM /
-/tech/T1.39 Tensor-RT LLM /*
-!/tech/T1.39 Tensor-RT LLM /README.md
-!/tech/T2.28 GRPO PPO RLHF/
-/tech/T2.28 GRPO PPO RLHF/*
-!/tech/T2.28 GRPO PPO RLHF/README.md
-!/tech/T2.07 Prefix Caching/
-/tech/T2.07 Prefix Caching/*
-!/tech/T2.07 Prefix Caching/README.md
-!/tech/T2.16 Kubernetes GPU Scheduling /
-/tech/T2.16 Kubernetes GPU Scheduling /*
-!/tech/T2.16 Kubernetes GPU Scheduling /README.md
-!/tech/T1.30 NIXL /
-/tech/T1.30 NIXL /*
-!/tech/T1.30 NIXL /README.md
-!/tech/T1.03 KV Cache /
-/tech/T1.03 KV Cache /*
-!/tech/T1.03 KV Cache /README.md
-!/tech/T2.02 CUTLASS - CuTe/
-/tech/T2.02 CUTLASS - CuTe/*
-!/tech/T2.02 CUTLASS - CuTe/README.md
-!/tech/T1.21 PCIe/
-/tech/T1.21 PCIe/*
-!/tech/T1.21 PCIe/README.md
-!/tech/T1.38 SGLang Architecture/
-/tech/T1.38 SGLang Architecture/*
-!/tech/T1.38 SGLang Architecture/README.md
-!/tech/T1.04 Paged Attention - KV Memory Management /
-/tech/T1.04 Paged Attention - KV Memory Management /*
-!/tech/T1.04 Paged Attention - KV Memory Management /README.md
-!/tech/T1.43 Bottleneck Analysis/
-/tech/T1.43 Bottleneck Analysis/*
-!/tech/T1.43 Bottleneck Analysis/README.md
-!/tech/T2.27 SFT/
-/tech/T2.27 SFT/*
-!/tech/T2.27 SFT/README.md
-!/tech/T1.27 RoCE/
-/tech/T1.27 RoCE/*
-!/tech/T1.27 RoCE/README.md
-!/tech/T2.08 Distributed KV Cache /
-/tech/T2.08 Distributed KV Cache /*
-!/tech/T2.08 Distributed KV Cache /README.md
-!/tech/T1.12 Roofline Reasoning /
-/tech/T1.12 Roofline Reasoning /*
-!/tech/T1.12 Roofline Reasoning /README.md
-!/tech/T2.31 Colocated vs disaggregated RL/
-/tech/T2.31 Colocated vs disaggregated RL/*
-!/tech/T2.31 Colocated vs disaggregated RL/README.md
-!/tech/T2.32 AMD ROCm inference/
-/tech/T2.32 AMD ROCm inference/*
-!/tech/T2.32 AMD ROCm inference/README.md
-!/tech/T2.33 Benchmark Methodology /
-/tech/T2.33 Benchmark Methodology /*
-!/tech/T2.33 Benchmark Methodology /README.md
-!/tech/T2.03 torch.compile /
-/tech/T2.03 torch.compile /*
-!/tech/T2.03 torch.compile /README.md
-!/tech/T2.30 Weight Synchronization/
-/tech/T2.30 Weight Synchronization/*
-!/tech/T2.30 Weight Synchronization/README.md
-!/tech/T2.09 KV Offloading /
-/tech/T2.09 KV Offloading /*
-!/tech/T2.09 KV Offloading /README.md
-!/tech/T1.36 Speculative Decoding /
-/tech/T1.36 Speculative Decoding /*
-!/tech/T1.36 Speculative Decoding /README.md
-!/tech/T1.25 Memory Registration /
-/tech/T1.25 Memory Registration /*
-!/tech/T1.25 Memory Registration /README.md
-!/tech/SUBJECTS.md
-!/tech/COVERAGE.md
-!/tech/RESEARCH_CONTEXT.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/
+/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/*
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /
+/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /*
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.18 Fault Tolerance/
+/03-tech/T2.X - Inference Engineering Extended/T2.18 Fault Tolerance/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.18 Fault Tolerance/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.17 Multi-Node serving/
+/03-tech/T2.X - Inference Engineering Extended/T2.17 Multi-Node serving/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.17 Multi-Node serving/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/
+/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/*
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/
+/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/*
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.26 Post-training systems /
+/03-tech/T2.X - Inference Engineering Extended/T2.26 Post-training systems /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.26 Post-training systems /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /
+/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /*
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/
+/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/*
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /
+/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /*
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.14 Backpressure/
+/03-tech/T2.X - Inference Engineering Extended/T2.14 Backpressure/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.14 Backpressure/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /
+/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /*
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/
+/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/*
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /
+/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /*
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/
+/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/*
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.01 Triton Kernel Programming/
+/03-tech/T2.X - Inference Engineering Extended/T2.01 Triton Kernel Programming/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.01 Triton Kernel Programming/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /
+/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /*
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /
+/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /*
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/
+/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/*
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/
+/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/*
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/
+/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/*
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.05 Advanced Quantization/
+/03-tech/T2.X - Inference Engineering Extended/T2.05 Advanced Quantization/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.05 Advanced Quantization/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /
+/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /*
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/
+/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/*
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/
+/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/*
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.12 Advanced Routing/
+/03-tech/T2.X - Inference Engineering Extended/T2.12 Advanced Routing/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.12 Advanced Routing/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/
+/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/*
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.22 Context parallelism/
+/03-tech/T2.X - Inference Engineering Extended/T2.22 Context parallelism/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.22 Context parallelism/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /
+/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /*
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/
+/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/*
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/
+/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/*
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /
+/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /*
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.29 Rollout Serving/
+/03-tech/T2.X - Inference Engineering Extended/T2.29 Rollout Serving/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.29 Rollout Serving/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.15 Autoscaling GPU Inference/
+/03-tech/T2.X - Inference Engineering Extended/T2.15 Autoscaling GPU Inference/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.15 Autoscaling GPU Inference/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.23 Advanced MoE/
+/03-tech/T2.X - Inference Engineering Extended/T2.23 Advanced MoE/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.23 Advanced MoE/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/
+/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/*
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/
+/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/*
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.04 Kernel Fusion /
+/03-tech/T2.X - Inference Engineering Extended/T2.04 Kernel Fusion /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.04 Kernel Fusion /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.11 GPUDirect Storage /
+/03-tech/T2.X - Inference Engineering Extended/T2.11 GPUDirect Storage /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.11 GPUDirect Storage /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/
+/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/*
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/
+/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/*
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.19 Model Loading/
+/03-tech/T2.X - Inference Engineering Extended/T2.19 Model Loading/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.19 Model Loading/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.06 KVCache Quantization/
+/03-tech/T2.X - Inference Engineering Extended/T2.06 KVCache Quantization/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.06 KVCache Quantization/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/
+/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/*
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.20 Multi-LoRA serving/
+/03-tech/T2.X - Inference Engineering Extended/T2.20 Multi-LoRA serving/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.20 Multi-LoRA serving/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.25 Topology-aware placement/
+/03-tech/T2.X - Inference Engineering Extended/T2.25 Topology-aware placement/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.25 Topology-aware placement/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/
+/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/*
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.24 Network Congestion/
+/03-tech/T2.X - Inference Engineering Extended/T2.24 Network Congestion/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.24 Network Congestion/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.21 Long-context inference/
+/03-tech/T2.X - Inference Engineering Extended/T2.21 Long-context inference/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.21 Long-context inference/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/
+/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/*
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /
+/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /*
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/
+/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/*
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.10 NVMe - storage tiers /
+/03-tech/T2.X - Inference Engineering Extended/T2.10 NVMe - storage tiers /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.10 NVMe - storage tiers /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.13 Admission Control/
+/03-tech/T2.X - Inference Engineering Extended/T2.13 Admission Control/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.13 Admission Control/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /
+/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /*
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.28 GRPO PPO RLHF/
+/03-tech/T2.X - Inference Engineering Extended/T2.28 GRPO PPO RLHF/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.28 GRPO PPO RLHF/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.07 Prefix Caching/
+/03-tech/T2.X - Inference Engineering Extended/T2.07 Prefix Caching/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.07 Prefix Caching/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.16 Kubernetes GPU Scheduling /
+/03-tech/T2.X - Inference Engineering Extended/T2.16 Kubernetes GPU Scheduling /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.16 Kubernetes GPU Scheduling /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /
+/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /*
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /
+/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /*
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.02 CUTLASS - CuTe/
+/03-tech/T2.X - Inference Engineering Extended/T2.02 CUTLASS - CuTe/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.02 CUTLASS - CuTe/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/
+/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/*
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/
+/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/*
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /
+/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /*
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/
+/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/*
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.27 SFT/
+/03-tech/T2.X - Inference Engineering Extended/T2.27 SFT/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.27 SFT/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/
+/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/*
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.08 Distributed KV Cache /
+/03-tech/T2.X - Inference Engineering Extended/T2.08 Distributed KV Cache /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.08 Distributed KV Cache /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /
+/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /*
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.31 Colocated vs disaggregated RL/
+/03-tech/T2.X - Inference Engineering Extended/T2.31 Colocated vs disaggregated RL/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.31 Colocated vs disaggregated RL/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.32 AMD ROCm inference/
+/03-tech/T2.X - Inference Engineering Extended/T2.32 AMD ROCm inference/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.32 AMD ROCm inference/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.33 Benchmark Methodology /
+/03-tech/T2.X - Inference Engineering Extended/T2.33 Benchmark Methodology /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.33 Benchmark Methodology /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.03 torch.compile /
+/03-tech/T2.X - Inference Engineering Extended/T2.03 torch.compile /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.03 torch.compile /README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.30 Weight Synchronization/
+/03-tech/T2.X - Inference Engineering Extended/T2.30 Weight Synchronization/*
+!/03-tech/T2.X - Inference Engineering Extended/T2.30 Weight Synchronization/README.md
+!/03-tech/T2.X - Inference Engineering Extended/T2.09 KV Offloading /
+/03-tech/T2.X - Inference Engineering Extended/T2.09 KV Offloading /*
+!/03-tech/T2.X - Inference Engineering Extended/T2.09 KV Offloading /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /
+/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /*
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /
+/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /*
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /README.md
+!/03-tech/SUBJECTS.md
+!/03-tech/COVERAGE.md
+!/03-tech/RESEARCH_CONTEXT.md
 
 # Exact user-requested Tier 3 architecture and modality extensions.
-!/tech/T3.01 Mamba and State Space Models/
-/tech/T3.01 Mamba and State Space Models/*
-!/tech/T3.01 Mamba and State Space Models/README.md
-!/tech/T3.02 Hybrid Mamba and Attention Architectures/
-/tech/T3.02 Hybrid Mamba and Attention Architectures/*
-!/tech/T3.02 Hybrid Mamba and Attention Architectures/README.md
-!/tech/T3.03 Diffusion Language Models/
-/tech/T3.03 Diffusion Language Models/*
-!/tech/T3.03 Diffusion Language Models/README.md
-!/tech/T3.04 Image Diffusion Inference/
-/tech/T3.04 Image Diffusion Inference/*
-!/tech/T3.04 Image Diffusion Inference/README.md
-!/tech/T3.05 Video Generation Inference/
-/tech/T3.05 Video Generation Inference/*
-!/tech/T3.05 Video Generation Inference/README.md
-!/tech/T3.06 Multimodal Inference/
-/tech/T3.06 Multimodal Inference/*
-!/tech/T3.06 Multimodal Inference/README.md
-!/tech/T3.07 Speech Inference/
-/tech/T3.07 Speech Inference/*
-!/tech/T3.07 Speech Inference/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.01 Mamba and State Space Models/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.01 Mamba and State Space Models/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.01 Mamba and State Space Models/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.02 Hybrid Mamba and Attention Architectures/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.02 Hybrid Mamba and Attention Architectures/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.02 Hybrid Mamba and Attention Architectures/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.03 Diffusion Language Models/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.03 Diffusion Language Models/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.03 Diffusion Language Models/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.04 Image Diffusion Inference/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.04 Image Diffusion Inference/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.04 Image Diffusion Inference/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.05 Video Generation Inference/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.05 Video Generation Inference/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.05 Video Generation Inference/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.06 Multimodal Inference/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.06 Multimodal Inference/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.06 Multimodal Inference/README.md
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.07 Speech Inference/
+/03-tech/T3.X - Emerging Architectures and Modalities/T3.07 Speech Inference/*
+!/03-tech/T3.X - Emerging Architectures and Modalities/T3.07 Speech Inference/README.md
+
+# Exact user-requested deferred pretraining subject map.
+!/03-tech/T4.X - Pre-training - do not study in detail yet/
+/03-tech/T4.X - Pre-training - do not study in detail yet/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.01 Pretraining Lifecycle/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.01 Pretraining Lifecycle/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.01 Pretraining Lifecycle/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.02 Tokenization for Pretraining/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.02 Tokenization for Pretraining/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.02 Tokenization for Pretraining/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.03 Pretraining Data Pipelines/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.03 Pretraining Data Pipelines/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.03 Pretraining Data Pipelines/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.04 Transformer Architecture and Hyperparameters/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.04 Transformer Architecture and Hyperparameters/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.04 Transformer Architecture and Hyperparameters/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.05 Training Objectives and Loss Functions/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.05 Training Objectives and Loss Functions/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.05 Training Objectives and Loss Functions/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.06 Initialization Normalization and muP/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.06 Initialization Normalization and muP/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.06 Initialization Normalization and muP/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.07 Optimizers - AdamW SOAP Muon/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.07 Optimizers - AdamW SOAP Muon/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.07 Optimizers - AdamW SOAP Muon/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.08 Learning Rate Schedules and Regularization/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.08 Learning Rate Schedules and Regularization/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.08 Learning Rate Schedules and Regularization/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.09 Batch Size and Gradient Accumulation/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.09 Batch Size and Gradient Accumulation/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.09 Batch Size and Gradient Accumulation/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.10 Mixed Precision and Numerical Stability/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.10 Mixed Precision and Numerical Stability/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.10 Mixed Precision and Numerical Stability/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.11 Training Compute Memory and Resource Accounting/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.11 Training Compute Memory and Resource Accounting/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.11 Training Compute Memory and Resource Accounting/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.12 Training Kernels and Compiler Optimization/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.12 Training Kernels and Compiler Optimization/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.12 Training Kernels and Compiler Optimization/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.13 Distributed Pretraining/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.13 Distributed Pretraining/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.13 Distributed Pretraining/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.14 Scaling Laws and Compute-Optimal Training/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.14 Scaling Laws and Compute-Optimal Training/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.14 Scaling Laws and Compute-Optimal Training/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.15 MoE Training and Load Balancing/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.15 MoE Training and Load Balancing/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.15 MoE Training and Load Balancing/README.md
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.16 Checkpointing Evaluation and Reproducibility/
+/03-tech/T4.X - Pre-training - do not study in detail yet/T4.16 Checkpointing Evaluation and Reproducibility/*
+!/03-tech/T4.X - Pre-training - do not study in detail yet/T4.16 Checkpointing Evaluation and Reproducibility/README.md
 
 # Exact requested T1.01 technical lab guides; executable tooling, sources and results stay private.
-!/tech/T1.01 LLM Inference Lifecycle/labs/
-/tech/T1.01 LLM Inference Lifecycle/labs/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/environment.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/README.md
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/
-/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/*
-!/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/
+/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/*
+!/03-tech/T1.X - Inference Engineering Core/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/README.md
 
 # BEGIN T1.02-T1.45 exact Runpod lab guide allowlist
 # Public-eligible guide files only; catalogs, code, raw results and evidence stay ignored.
-!/tech/T1-LABS.md
-!/tech/T1.02 Transformer Inference Architecture/labs/
-/tech/T1.02 Transformer Inference Architecture/labs/*
-!/tech/T1.02 Transformer Inference Architecture/labs/README.md
-!/tech/T1.02 Transformer Inference Architecture/labs/environment.md
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/
-/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/*
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/README.md
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/
-/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/*
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/
-/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/*
-!/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/README.md
-!/tech/T1.03 KV Cache /labs/
-/tech/T1.03 KV Cache /labs/*
-!/tech/T1.03 KV Cache /labs/README.md
-!/tech/T1.03 KV Cache /labs/environment.md
-!/tech/T1.03 KV Cache /labs/lab-00-foundation/
-/tech/T1.03 KV Cache /labs/lab-00-foundation/*
-!/tech/T1.03 KV Cache /labs/lab-00-foundation/README.md
-!/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/
-/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/*
-!/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.03 KV Cache /labs/lab-02-boundary-case/
-/tech/T1.03 KV Cache /labs/lab-02-boundary-case/*
-!/tech/T1.03 KV Cache /labs/lab-02-boundary-case/README.md
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/
-/tech/T1.04 Paged Attention - KV Memory Management /labs/*
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/README.md
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/environment.md
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/
-/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/*
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/README.md
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/
-/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/*
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/
-/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/*
-!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/README.md
-!/tech/T1.05 Prefill vs Decode /labs/
-/tech/T1.05 Prefill vs Decode /labs/*
-!/tech/T1.05 Prefill vs Decode /labs/README.md
-!/tech/T1.05 Prefill vs Decode /labs/environment.md
-!/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/
-/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/*
-!/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/README.md
-!/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/
-/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/*
-!/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/
-/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/*
-!/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/README.md
-!/tech/T1.06 Continous Batching /labs/
-/tech/T1.06 Continous Batching /labs/*
-!/tech/T1.06 Continous Batching /labs/README.md
-!/tech/T1.06 Continous Batching /labs/environment.md
-!/tech/T1.06 Continous Batching /labs/lab-00-foundation/
-/tech/T1.06 Continous Batching /labs/lab-00-foundation/*
-!/tech/T1.06 Continous Batching /labs/lab-00-foundation/README.md
-!/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/
-/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/*
-!/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/
-/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/*
-!/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/README.md
-!/tech/T1.07 Chunked Prefill /labs/
-/tech/T1.07 Chunked Prefill /labs/*
-!/tech/T1.07 Chunked Prefill /labs/README.md
-!/tech/T1.07 Chunked Prefill /labs/environment.md
-!/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/
-/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/*
-!/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/README.md
-!/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/
-/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/*
-!/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/
-/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/*
-!/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/README.md
-!/tech/T1.08 Serving metrics/labs/
-/tech/T1.08 Serving metrics/labs/*
-!/tech/T1.08 Serving metrics/labs/README.md
-!/tech/T1.08 Serving metrics/labs/environment.md
-!/tech/T1.08 Serving metrics/labs/lab-00-foundation/
-/tech/T1.08 Serving metrics/labs/lab-00-foundation/*
-!/tech/T1.08 Serving metrics/labs/lab-00-foundation/README.md
-!/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/
-/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/*
-!/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/
-/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/*
-!/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/README.md
-!/tech/T1.09 Workload Characterization/labs/
-/tech/T1.09 Workload Characterization/labs/*
-!/tech/T1.09 Workload Characterization/labs/README.md
-!/tech/T1.09 Workload Characterization/labs/environment.md
-!/tech/T1.09 Workload Characterization/labs/lab-00-foundation/
-/tech/T1.09 Workload Characterization/labs/lab-00-foundation/*
-!/tech/T1.09 Workload Characterization/labs/lab-00-foundation/README.md
-!/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/
-/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/*
-!/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/
-/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/*
-!/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/README.md
-!/tech/T1.10 GPU Architecture Basics/labs/
-/tech/T1.10 GPU Architecture Basics/labs/*
-!/tech/T1.10 GPU Architecture Basics/labs/README.md
-!/tech/T1.10 GPU Architecture Basics/labs/environment.md
-!/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/
-/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/*
-!/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/README.md
-!/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/
-/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/*
-!/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/
-/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/*
-!/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/README.md
-!/tech/T1.11 GPU memory hierarchy/labs/
-/tech/T1.11 GPU memory hierarchy/labs/*
-!/tech/T1.11 GPU memory hierarchy/labs/README.md
-!/tech/T1.11 GPU memory hierarchy/labs/environment.md
-!/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/
-/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/*
-!/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/README.md
-!/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/
-/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/*
-!/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/
-/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/*
-!/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/README.md
-!/tech/T1.12 Roofline Reasoning /labs/
-/tech/T1.12 Roofline Reasoning /labs/*
-!/tech/T1.12 Roofline Reasoning /labs/README.md
-!/tech/T1.12 Roofline Reasoning /labs/environment.md
-!/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/
-/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/*
-!/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/README.md
-!/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/
-/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/*
-!/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/
-/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/*
-!/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/README.md
-!/tech/T1.13 CUDA Fundamentals /labs/
-/tech/T1.13 CUDA Fundamentals /labs/*
-!/tech/T1.13 CUDA Fundamentals /labs/README.md
-!/tech/T1.13 CUDA Fundamentals /labs/environment.md
-!/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/
-/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/*
-!/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/README.md
-!/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/
-/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/*
-!/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/
-/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/*
-!/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/README.md
-!/tech/T1.14 CUDA streams - events/labs/
-/tech/T1.14 CUDA streams - events/labs/*
-!/tech/T1.14 CUDA streams - events/labs/README.md
-!/tech/T1.14 CUDA streams - events/labs/environment.md
-!/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/
-/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/*
-!/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/README.md
-!/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/
-/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/*
-!/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/
-/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/*
-!/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/README.md
-!/tech/T1.15 Tensor parallelism/labs/
-/tech/T1.15 Tensor parallelism/labs/*
-!/tech/T1.15 Tensor parallelism/labs/README.md
-!/tech/T1.15 Tensor parallelism/labs/environment.md
-!/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/
-/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/*
-!/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/README.md
-!/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/
-/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/*
-!/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/
-/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/*
-!/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/README.md
-!/tech/T1.16 Pipeline paralellism/labs/
-/tech/T1.16 Pipeline paralellism/labs/*
-!/tech/T1.16 Pipeline paralellism/labs/README.md
-!/tech/T1.16 Pipeline paralellism/labs/environment.md
-!/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/
-/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/*
-!/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/README.md
-!/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/
-/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/*
-!/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/
-/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/*
-!/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/README.md
-!/tech/T1.17 Data parallelism/labs/
-/tech/T1.17 Data parallelism/labs/*
-!/tech/T1.17 Data parallelism/labs/README.md
-!/tech/T1.17 Data parallelism/labs/environment.md
-!/tech/T1.17 Data parallelism/labs/lab-00-foundation/
-/tech/T1.17 Data parallelism/labs/lab-00-foundation/*
-!/tech/T1.17 Data parallelism/labs/lab-00-foundation/README.md
-!/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/
-/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/*
-!/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/
-/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/*
-!/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/README.md
-!/tech/T1.18 Expert parallelism/labs/
-/tech/T1.18 Expert parallelism/labs/*
-!/tech/T1.18 Expert parallelism/labs/README.md
-!/tech/T1.18 Expert parallelism/labs/environment.md
-!/tech/T1.18 Expert parallelism/labs/lab-00-foundation/
-/tech/T1.18 Expert parallelism/labs/lab-00-foundation/*
-!/tech/T1.18 Expert parallelism/labs/lab-00-foundation/README.md
-!/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/
-/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/*
-!/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/
-/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/*
-!/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/README.md
-!/tech/T1.19 NCCL /labs/
-/tech/T1.19 NCCL /labs/*
-!/tech/T1.19 NCCL /labs/README.md
-!/tech/T1.19 NCCL /labs/environment.md
-!/tech/T1.19 NCCL /labs/lab-00-foundation/
-/tech/T1.19 NCCL /labs/lab-00-foundation/*
-!/tech/T1.19 NCCL /labs/lab-00-foundation/README.md
-!/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/
-/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/*
-!/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.19 NCCL /labs/lab-02-boundary-case/
-/tech/T1.19 NCCL /labs/lab-02-boundary-case/*
-!/tech/T1.19 NCCL /labs/lab-02-boundary-case/README.md
-!/tech/T1.20 Collectives/labs/
-/tech/T1.20 Collectives/labs/*
-!/tech/T1.20 Collectives/labs/README.md
-!/tech/T1.20 Collectives/labs/environment.md
-!/tech/T1.20 Collectives/labs/lab-00-foundation/
-/tech/T1.20 Collectives/labs/lab-00-foundation/*
-!/tech/T1.20 Collectives/labs/lab-00-foundation/README.md
-!/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/
-/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/*
-!/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.20 Collectives/labs/lab-02-boundary-case/
-/tech/T1.20 Collectives/labs/lab-02-boundary-case/*
-!/tech/T1.20 Collectives/labs/lab-02-boundary-case/README.md
-!/tech/T1.21 PCIe/labs/
-/tech/T1.21 PCIe/labs/*
-!/tech/T1.21 PCIe/labs/README.md
-!/tech/T1.21 PCIe/labs/environment.md
-!/tech/T1.21 PCIe/labs/lab-00-foundation/
-/tech/T1.21 PCIe/labs/lab-00-foundation/*
-!/tech/T1.21 PCIe/labs/lab-00-foundation/README.md
-!/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/
-/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/*
-!/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.21 PCIe/labs/lab-02-boundary-case/
-/tech/T1.21 PCIe/labs/lab-02-boundary-case/*
-!/tech/T1.21 PCIe/labs/lab-02-boundary-case/README.md
-!/tech/T1.22 NVLink NVSwitch/labs/
-/tech/T1.22 NVLink NVSwitch/labs/*
-!/tech/T1.22 NVLink NVSwitch/labs/README.md
-!/tech/T1.22 NVLink NVSwitch/labs/environment.md
-!/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/
-/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/*
-!/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/README.md
-!/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/
-/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/*
-!/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/
-/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/*
-!/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/README.md
-!/tech/T1.23 NUMA/labs/
-/tech/T1.23 NUMA/labs/*
-!/tech/T1.23 NUMA/labs/README.md
-!/tech/T1.23 NUMA/labs/environment.md
-!/tech/T1.23 NUMA/labs/lab-00-foundation/
-/tech/T1.23 NUMA/labs/lab-00-foundation/*
-!/tech/T1.23 NUMA/labs/lab-00-foundation/README.md
-!/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/
-/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/*
-!/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.23 NUMA/labs/lab-02-boundary-case/
-/tech/T1.23 NUMA/labs/lab-02-boundary-case/*
-!/tech/T1.23 NUMA/labs/lab-02-boundary-case/README.md
-!/tech/T1.24 RDMA Fundamentals /labs/
-/tech/T1.24 RDMA Fundamentals /labs/*
-!/tech/T1.24 RDMA Fundamentals /labs/README.md
-!/tech/T1.24 RDMA Fundamentals /labs/environment.md
-!/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/
-/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/*
-!/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/README.md
-!/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/
-/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/*
-!/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/
-/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/*
-!/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/README.md
-!/tech/T1.25 Memory Registration /labs/
-/tech/T1.25 Memory Registration /labs/*
-!/tech/T1.25 Memory Registration /labs/README.md
-!/tech/T1.25 Memory Registration /labs/environment.md
-!/tech/T1.25 Memory Registration /labs/lab-00-foundation/
-/tech/T1.25 Memory Registration /labs/lab-00-foundation/*
-!/tech/T1.25 Memory Registration /labs/lab-00-foundation/README.md
-!/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/
-/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/*
-!/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/
-/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/*
-!/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/README.md
-!/tech/T1.26 InfiniBand/labs/
-/tech/T1.26 InfiniBand/labs/*
-!/tech/T1.26 InfiniBand/labs/README.md
-!/tech/T1.26 InfiniBand/labs/environment.md
-!/tech/T1.26 InfiniBand/labs/lab-00-foundation/
-/tech/T1.26 InfiniBand/labs/lab-00-foundation/*
-!/tech/T1.26 InfiniBand/labs/lab-00-foundation/README.md
-!/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/
-/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/*
-!/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/
-/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/*
-!/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/README.md
-!/tech/T1.27 RoCE/labs/
-/tech/T1.27 RoCE/labs/*
-!/tech/T1.27 RoCE/labs/README.md
-!/tech/T1.27 RoCE/labs/environment.md
-!/tech/T1.27 RoCE/labs/lab-00-foundation/
-/tech/T1.27 RoCE/labs/lab-00-foundation/*
-!/tech/T1.27 RoCE/labs/lab-00-foundation/README.md
-!/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/
-/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/*
-!/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.27 RoCE/labs/lab-02-boundary-case/
-/tech/T1.27 RoCE/labs/lab-02-boundary-case/*
-!/tech/T1.27 RoCE/labs/lab-02-boundary-case/README.md
-!/tech/T1.28 GPUDirect RDMA /labs/
-/tech/T1.28 GPUDirect RDMA /labs/*
-!/tech/T1.28 GPUDirect RDMA /labs/README.md
-!/tech/T1.28 GPUDirect RDMA /labs/environment.md
-!/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/
-/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/*
-!/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/README.md
-!/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/
-/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/*
-!/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/
-/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/*
-!/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/README.md
-!/tech/T1.29 KV transfer/labs/
-/tech/T1.29 KV transfer/labs/*
-!/tech/T1.29 KV transfer/labs/README.md
-!/tech/T1.29 KV transfer/labs/environment.md
-!/tech/T1.29 KV transfer/labs/lab-00-foundation/
-/tech/T1.29 KV transfer/labs/lab-00-foundation/*
-!/tech/T1.29 KV transfer/labs/lab-00-foundation/README.md
-!/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/
-/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/*
-!/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.29 KV transfer/labs/lab-02-boundary-case/
-/tech/T1.29 KV transfer/labs/lab-02-boundary-case/*
-!/tech/T1.29 KV transfer/labs/lab-02-boundary-case/README.md
-!/tech/T1.30 NIXL /labs/
-/tech/T1.30 NIXL /labs/*
-!/tech/T1.30 NIXL /labs/README.md
-!/tech/T1.30 NIXL /labs/environment.md
-!/tech/T1.30 NIXL /labs/lab-00-foundation/
-/tech/T1.30 NIXL /labs/lab-00-foundation/*
-!/tech/T1.30 NIXL /labs/lab-00-foundation/README.md
-!/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/
-/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/*
-!/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.30 NIXL /labs/lab-02-boundary-case/
-/tech/T1.30 NIXL /labs/lab-02-boundary-case/*
-!/tech/T1.30 NIXL /labs/lab-02-boundary-case/README.md
-!/tech/T1.31 prefill /labs/
-/tech/T1.31 prefill /labs/*
-!/tech/T1.31 prefill /labs/README.md
-!/tech/T1.31 prefill /labs/environment.md
-!/tech/T1.31 prefill /labs/lab-00-foundation/
-/tech/T1.31 prefill /labs/lab-00-foundation/*
-!/tech/T1.31 prefill /labs/lab-00-foundation/README.md
-!/tech/T1.31 prefill /labs/lab-01-controlled-sweep/
-/tech/T1.31 prefill /labs/lab-01-controlled-sweep/*
-!/tech/T1.31 prefill /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.31 prefill /labs/lab-02-boundary-case/
-/tech/T1.31 prefill /labs/lab-02-boundary-case/*
-!/tech/T1.31 prefill /labs/lab-02-boundary-case/README.md
-!/tech/T1.32 Quantization/labs/
-/tech/T1.32 Quantization/labs/*
-!/tech/T1.32 Quantization/labs/README.md
-!/tech/T1.32 Quantization/labs/environment.md
-!/tech/T1.32 Quantization/labs/lab-00-foundation/
-/tech/T1.32 Quantization/labs/lab-00-foundation/*
-!/tech/T1.32 Quantization/labs/lab-00-foundation/README.md
-!/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/
-/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/*
-!/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.32 Quantization/labs/lab-02-boundary-case/
-/tech/T1.32 Quantization/labs/lab-02-boundary-case/*
-!/tech/T1.32 Quantization/labs/lab-02-boundary-case/README.md
-!/tech/T1.33 GQA - MQA - MLA /labs/
-/tech/T1.33 GQA - MQA - MLA /labs/*
-!/tech/T1.33 GQA - MQA - MLA /labs/README.md
-!/tech/T1.33 GQA - MQA - MLA /labs/environment.md
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/
-/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/*
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/README.md
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/
-/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/*
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/
-/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/*
-!/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/README.md
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/
-/tech/T1.34 Flash Attention - Optimised Attention/labs/*
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/README.md
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/environment.md
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/
-/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/*
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/README.md
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/
-/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/*
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/
-/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/*
-!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/README.md
-!/tech/T1.35 MoE Inference/labs/
-/tech/T1.35 MoE Inference/labs/*
-!/tech/T1.35 MoE Inference/labs/README.md
-!/tech/T1.35 MoE Inference/labs/environment.md
-!/tech/T1.35 MoE Inference/labs/lab-00-foundation/
-/tech/T1.35 MoE Inference/labs/lab-00-foundation/*
-!/tech/T1.35 MoE Inference/labs/lab-00-foundation/README.md
-!/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/
-/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/*
-!/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/
-/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/*
-!/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/README.md
-!/tech/T1.36 Speculative Decoding /labs/
-/tech/T1.36 Speculative Decoding /labs/*
-!/tech/T1.36 Speculative Decoding /labs/README.md
-!/tech/T1.36 Speculative Decoding /labs/environment.md
-!/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/
-/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/*
-!/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/README.md
-!/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/
-/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/*
-!/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/
-/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/*
-!/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/README.md
-!/tech/T1.37 vLLM Internals /labs/
-/tech/T1.37 vLLM Internals /labs/*
-!/tech/T1.37 vLLM Internals /labs/README.md
-!/tech/T1.37 vLLM Internals /labs/environment.md
-!/tech/T1.37 vLLM Internals /labs/lab-00-foundation/
-/tech/T1.37 vLLM Internals /labs/lab-00-foundation/*
-!/tech/T1.37 vLLM Internals /labs/lab-00-foundation/README.md
-!/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/
-/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/*
-!/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/
-/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/*
-!/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/README.md
-!/tech/T1.38 SGLang Architecture/labs/
-/tech/T1.38 SGLang Architecture/labs/*
-!/tech/T1.38 SGLang Architecture/labs/README.md
-!/tech/T1.38 SGLang Architecture/labs/environment.md
-!/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/
-/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/*
-!/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/README.md
-!/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/
-/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/*
-!/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/
-/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/*
-!/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/README.md
-!/tech/T1.39 Tensor-RT LLM /labs/
-/tech/T1.39 Tensor-RT LLM /labs/*
-!/tech/T1.39 Tensor-RT LLM /labs/README.md
-!/tech/T1.39 Tensor-RT LLM /labs/environment.md
-!/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/
-/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/*
-!/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/README.md
-!/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/
-/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/*
-!/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/
-/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/*
-!/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/README.md
-!/tech/T1.40 NVIDIA Dynamo /labs/
-/tech/T1.40 NVIDIA Dynamo /labs/*
-!/tech/T1.40 NVIDIA Dynamo /labs/README.md
-!/tech/T1.40 NVIDIA Dynamo /labs/environment.md
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/
-/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/*
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/README.md
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/
-/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/*
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/README.md
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/
-/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/*
-!/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/README.md
-!/tech/T1.41 Profiling/labs/
-/tech/T1.41 Profiling/labs/*
-!/tech/T1.41 Profiling/labs/README.md
-!/tech/T1.41 Profiling/labs/environment.md
-!/tech/T1.41 Profiling/labs/lab-00-foundation/
-/tech/T1.41 Profiling/labs/lab-00-foundation/*
-!/tech/T1.41 Profiling/labs/lab-00-foundation/README.md
-!/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/
-/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/*
-!/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.41 Profiling/labs/lab-02-boundary-case/
-/tech/T1.41 Profiling/labs/lab-02-boundary-case/*
-!/tech/T1.41 Profiling/labs/lab-02-boundary-case/README.md
-!/tech/T1.42 GPU Observability/labs/
-/tech/T1.42 GPU Observability/labs/*
-!/tech/T1.42 GPU Observability/labs/README.md
-!/tech/T1.42 GPU Observability/labs/environment.md
-!/tech/T1.42 GPU Observability/labs/lab-00-foundation/
-/tech/T1.42 GPU Observability/labs/lab-00-foundation/*
-!/tech/T1.42 GPU Observability/labs/lab-00-foundation/README.md
-!/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/
-/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/*
-!/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/
-/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/*
-!/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/README.md
-!/tech/T1.43 Bottleneck Analysis/labs/
-/tech/T1.43 Bottleneck Analysis/labs/*
-!/tech/T1.43 Bottleneck Analysis/labs/README.md
-!/tech/T1.43 Bottleneck Analysis/labs/environment.md
-!/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/
-/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/*
-!/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/README.md
-!/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/
-/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/*
-!/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/
-/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/*
-!/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/README.md
-!/tech/T1.44 Capacity Planning/labs/
-/tech/T1.44 Capacity Planning/labs/*
-!/tech/T1.44 Capacity Planning/labs/README.md
-!/tech/T1.44 Capacity Planning/labs/environment.md
-!/tech/T1.44 Capacity Planning/labs/lab-00-foundation/
-/tech/T1.44 Capacity Planning/labs/lab-00-foundation/*
-!/tech/T1.44 Capacity Planning/labs/lab-00-foundation/README.md
-!/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/
-/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/*
-!/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/
-/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/*
-!/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/README.md
-!/tech/T1.45 Inference Economics/labs/
-/tech/T1.45 Inference Economics/labs/*
-!/tech/T1.45 Inference Economics/labs/README.md
-!/tech/T1.45 Inference Economics/labs/environment.md
-!/tech/T1.45 Inference Economics/labs/lab-00-foundation/
-/tech/T1.45 Inference Economics/labs/lab-00-foundation/*
-!/tech/T1.45 Inference Economics/labs/lab-00-foundation/README.md
-!/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/
-/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/*
-!/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/README.md
-!/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/
-/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/*
-!/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/README.md
+!/03-tech/T1-LABS.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.03 KV Cache /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.06 Continous Batching /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.07 Chunked Prefill /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.08 Serving metrics/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.09 Workload Characterization/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.14 CUDA streams - events/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.15 Tensor parallelism/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.17 Data parallelism/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.18 Expert parallelism/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.19 NCCL /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.20 Collectives/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.21 PCIe/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.23 NUMA/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.25 Memory Registration /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.26 InfiniBand/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.27 RoCE/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.29 KV transfer/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.30 NIXL /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.31 prefill /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.32 Quantization/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.35 MoE Inference/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.36 Speculative Decoding /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.37 vLLM Internals /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.38 SGLang Architecture/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/
+/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.41 Profiling/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.42 GPU Observability/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.44 Capacity Planning/labs/lab-02-boundary-case/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/
+/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/*
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/environment.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-00-foundation/
+/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-00-foundation/*
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-00-foundation/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-01-controlled-sweep/
+/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-01-controlled-sweep/*
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-01-controlled-sweep/README.md
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-02-boundary-case/
+/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-02-boundary-case/*
+!/03-tech/T1.X - Inference Engineering Core/T1.45 Inference Economics/labs/lab-02-boundary-case/README.md
 # END T1.02-T1.45 exact Runpod lab guide allowlist
