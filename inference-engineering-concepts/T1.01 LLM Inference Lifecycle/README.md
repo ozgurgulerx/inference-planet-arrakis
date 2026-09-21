@@ -1701,3 +1701,7 @@ The key idea is:
 BPE learns the alphabet the model will speak in. LLM pretraining then learns what that alphabet means and how its symbols relate to one another.
 
 Once LLM pretraining begins, that alphabet is effectively part of the model architecture.
+
+## Practical labs
+
+[Runpod lifecycle lab pack — L00–L35](labs/README.md): build, instrument, perturb and diagnose the request path, with a pinned environment and independent rebuild gates. Lab specifications are not completed experiments.
