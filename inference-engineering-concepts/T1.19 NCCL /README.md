@@ -22,3 +22,7 @@ How do you distinguish a slow rank from an inefficient collective algorithm? Exp
 ## Source starting point
 
 [NCCL user guide](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/overview.html). This is an entry point, not evidence that every item above is implemented by every engine. Check model, hardware, backend and version support before making implementation claims.
+
+## Practical labs
+
+[Runpod lab pack](labs/README.md) — planned experiments and evidence gates; no execution is implied.

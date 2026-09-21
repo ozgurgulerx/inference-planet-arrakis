@@ -1704,4 +1704,4 @@ Once LLM pretraining begins, that alphabet is effectively part of the model arch
 
 ## Practical labs
 
-[Runpod lifecycle lab pack — L00–L35](labs/README.md): build, instrument, perturb and diagnose the request path, with a pinned environment and independent rebuild gates. Lab specifications are not completed experiments.
+[Runpod lifecycle lab pack — L00–L35](labs/README.md): build, instrument, perturb and diagnose the request path, with a pinned environment and independent rebuild gates. Continue with the [chapter-by-chapter T1 Runpod route](../T1-LABS.md). Lab specifications are not completed experiments.

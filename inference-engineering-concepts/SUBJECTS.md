@@ -1,8 +1,8 @@
 # Inference engineering — subject index
 
-All **85 subjects** are visible here: **T1.01–T1.45**, **T2.01–T2.33** and **T3.01–T3.07**. Existing folder names and subject IDs are retained. T1.01 contains expanded notes; the other pages are preparation outlines, with existing seed notes preserved where present.
+All **85 subjects** are visible here: **T1.01–T1.45**, **T2.01–T2.33** and **T3.01–T3.07**. Existing folder names and subject IDs are retained. T1.01 and T1.02 contain expanded notes; the other pages are preparation outlines, with existing seed notes preserved where present.
 
-[Coverage, priorities and workload contexts](COVERAGE.md) · [Research sources and evidence boundaries](RESEARCH_CONTEXT.md)
+[Coverage, priorities and workload contexts](COVERAGE.md) · [T1 Runpod lab route](T1-LABS.md) · [Research sources and evidence boundaries](RESEARCH_CONTEXT.md)
 
 Start with the lifecycle and measurement spine, then select a workload path in the coverage guide. Numeric order is a catalog, not a prerequisite sequence.
 
@@ -11,7 +11,7 @@ Tier meanings: **T1** = core production inference engineering; **T2** = deeper k
 | Subject | Topic | Material |
 |---|---|---|
 | [T1.01](T1.01%20LLM%20Inference%20Lifecycle/README.md) | LLM Inference Lifecycle | Expanded notes |
-| [T1.02](T1.02%20Transformer%20Inference%20Architecture/README.md) | Transformer Inference Architecture | Preparation outline |
+| [T1.02](T1.02%20Transformer%20Inference%20Architecture/README.md) | Transformer Inference Architecture | Expanded notes |
 | [T1.03](T1.03%20KV%20Cache%20/README.md) | KV Cache | Preparation outline |
 | [T1.04](T1.04%20Paged%20Attention%20-%20KV%20Memory%20Management%20/README.md) | Paged Attention - KV Memory Management | Preparation outline |
 | [T1.05](T1.05%20Prefill%20vs%20Decode%20/README.md) | Prefill vs Decode | Preparation outline |

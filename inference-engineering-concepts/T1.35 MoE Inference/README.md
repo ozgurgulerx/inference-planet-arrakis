@@ -22,3 +22,7 @@ Why does low active FLOP count not guarantee low serving latency? Explain the me
 ## Source starting point
 
 [vLLM expert parallel deployment](https://docs.vllm.ai/en/latest/serving/expert_parallel_deployment/). This is an entry point, not evidence that every item above is implemented by every engine. Check model, hardware, backend and version support before making implementation claims.
+
+## Practical labs
+
+[Runpod lab pack](labs/README.md) — planned experiments and evidence gates; no execution is implied.

@@ -21,3 +21,7 @@ What observation would make you abandon your first bottleneck hypothesis? Explai
 ## Source starting point
 
 [Lifecycle research and measurement context](../RESEARCH_CONTEXT.md). This is an entry point, not evidence that every item above is implemented by every engine. Check model, hardware, backend and version support before making implementation claims.
+
+## Practical labs
+
+[Runpod lab pack](labs/README.md) — planned experiments and evidence gates; no execution is implied.

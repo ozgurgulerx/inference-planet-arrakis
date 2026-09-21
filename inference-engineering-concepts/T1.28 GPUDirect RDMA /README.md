@@ -30,3 +30,7 @@ NVIDIA documentation
 ## Source starting point
 
 [GPUDirect RDMA documentation](https://docs.nvidia.com/cuda/gpudirect-rdma/). This is an entry point, not evidence that every item above is implemented by every engine. Check model, hardware, backend and version support before making implementation claims.
+
+## Practical labs
+
+[Runpod lab pack](labs/README.md) — planned experiments and evidence gates; no execution is implied.

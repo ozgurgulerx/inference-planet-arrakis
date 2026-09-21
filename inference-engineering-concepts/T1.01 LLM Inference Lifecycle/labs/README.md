@@ -6,6 +6,8 @@ Start with [L00](lab-00-environment/README.md), then the Intro dependencies. Bef
 
 The full catalog follows the supplied laboratory manual's L00–L35 IDs. Intro/Medium are the chosen core; advanced/distributed branches stay visible and deferred. The local workspace includes ignored Python infrastructure, starter checks and source metadata; these Markdown guides alone are not an installable public software release. Full reference solutions and personal evaluations remain private.
 
+For the wider curriculum, use the [T1 Runpod lab route](../../T1-LABS.md). The original L00–L35 IDs and paths stay canonical for manual/provenance continuity. Narrower chapters now own the deeper treatment of KV, batching, metrics, roofline, parallelism, transfer, quantization, speculation, runtime internals, routing, profiling, diagnosis and capacity; they link back here instead of copying evidence.
+
 ## Workflow
 
 Predict → build → measure → explain → falsify → intervene → retest under a changed workload. Build before comparing with reference solutions. Each lab separates a small offline invariant check from its actual system evidence gate. Six primary task/gate lists follow; later reading and deferred experiments are not hidden graduation conditions.

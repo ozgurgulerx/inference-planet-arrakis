@@ -30,3 +30,7 @@ vLLM KV transfer docs
 ## Source starting point
 
 [Dynamo compatibility reference](https://docs.nvidia.com/dynamo/latest/reference/compatibility). This is an entry point, not evidence that every item above is implemented by every engine. Check model, hardware, backend and version support before making implementation claims.
+
+## Practical labs
+
+[Runpod lab pack](labs/README.md) — planned experiments and evidence gates; no execution is implied.
