@@ -1,4 +1,4 @@
-# Public journal export only. Everything else is ignored by default.
+# Public learning export only. Everything else is ignored by default.
 /*
 
 # Tracking policy and public navigation.
@@ -80,958 +80,958 @@
 !/models/01-qwen3.8-27b/list01-study-levels.md
 
 # Exact user-authorized T1.01 lifecycle README; other concept material stays private.
-!/inference-engineering-concepts/
-/inference-engineering-concepts/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/README.md
+!/tech/
+/tech/*
+!/tech/T1.01 LLM Inference Lifecycle/
+/tech/T1.01 LLM Inference Lifecycle/*
+!/tech/T1.01 LLM Inference Lifecycle/README.md
 
 # Exact user-requested subject outlines and technical coverage indexes.
-!/inference-engineering-concepts/T1.23 NUMA/
-/inference-engineering-concepts/T1.23 NUMA/*
-!/inference-engineering-concepts/T1.23 NUMA/README.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /
-/inference-engineering-concepts/T1.13 CUDA Fundamentals /*
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /README.md
-!/inference-engineering-concepts/T2.18 Fault Tolerance/
-/inference-engineering-concepts/T2.18 Fault Tolerance/*
-!/inference-engineering-concepts/T2.18 Fault Tolerance/README.md
-!/inference-engineering-concepts/T2.17 Multi-Node serving/
-/inference-engineering-concepts/T2.17 Multi-Node serving/*
-!/inference-engineering-concepts/T2.17 Multi-Node serving/README.md
-!/inference-engineering-concepts/T1.42 GPU Observability/
-/inference-engineering-concepts/T1.42 GPU Observability/*
-!/inference-engineering-concepts/T1.42 GPU Observability/README.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/
-/inference-engineering-concepts/T1.09 Workload Characterization/*
-!/inference-engineering-concepts/T1.09 Workload Characterization/README.md
-!/inference-engineering-concepts/T2.26 Post-training systems /
-/inference-engineering-concepts/T2.26 Post-training systems /*
-!/inference-engineering-concepts/T2.26 Post-training systems /README.md
-!/inference-engineering-concepts/T1.31 prefill /
-/inference-engineering-concepts/T1.31 prefill /*
-!/inference-engineering-concepts/T1.31 prefill /README.md
-!/inference-engineering-concepts/T1.41 Profiling/
-/inference-engineering-concepts/T1.41 Profiling/*
-!/inference-engineering-concepts/T1.41 Profiling/README.md
-!/inference-engineering-concepts/T1.06 Continous Batching /
-/inference-engineering-concepts/T1.06 Continous Batching /*
-!/inference-engineering-concepts/T1.06 Continous Batching /README.md
-!/inference-engineering-concepts/T2.14 Backpressure/
-/inference-engineering-concepts/T2.14 Backpressure/*
-!/inference-engineering-concepts/T2.14 Backpressure/README.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /
-/inference-engineering-concepts/T1.05 Prefill vs Decode /*
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /README.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/
-/inference-engineering-concepts/T1.14 CUDA streams - events/*
-!/inference-engineering-concepts/T1.14 CUDA streams - events/README.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /
-/inference-engineering-concepts/T1.33 GQA - MQA - MLA /*
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /README.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/
-/inference-engineering-concepts/T1.15 Tensor parallelism/*
-!/inference-engineering-concepts/T1.15 Tensor parallelism/README.md
-!/inference-engineering-concepts/T2.01 Triton Kernel Programming/
-/inference-engineering-concepts/T2.01 Triton Kernel Programming/*
-!/inference-engineering-concepts/T2.01 Triton Kernel Programming/README.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /
-/inference-engineering-concepts/T1.40 NVIDIA Dynamo /*
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /README.md
-!/inference-engineering-concepts/T1.19 NCCL /
-/inference-engineering-concepts/T1.19 NCCL /*
-!/inference-engineering-concepts/T1.19 NCCL /README.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/
-/inference-engineering-concepts/T1.10 GPU Architecture Basics/*
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/README.md
-!/inference-engineering-concepts/T1.45 Inference Economics/
-/inference-engineering-concepts/T1.45 Inference Economics/*
-!/inference-engineering-concepts/T1.45 Inference Economics/README.md
-!/inference-engineering-concepts/T1.08 Serving metrics/
-/inference-engineering-concepts/T1.08 Serving metrics/*
-!/inference-engineering-concepts/T1.08 Serving metrics/README.md
-!/inference-engineering-concepts/T2.05 Advanced Quantization/
-/inference-engineering-concepts/T2.05 Advanced Quantization/*
-!/inference-engineering-concepts/T2.05 Advanced Quantization/README.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /
-/inference-engineering-concepts/T1.24 RDMA Fundamentals /*
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /README.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/
-/inference-engineering-concepts/T1.02 Transformer Inference Architecture/*
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/README.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/
-/inference-engineering-concepts/T1.11 GPU memory hierarchy/*
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/README.md
-!/inference-engineering-concepts/T2.12 Advanced Routing/
-/inference-engineering-concepts/T2.12 Advanced Routing/*
-!/inference-engineering-concepts/T2.12 Advanced Routing/README.md
-!/inference-engineering-concepts/T1.29 KV transfer/
-/inference-engineering-concepts/T1.29 KV transfer/*
-!/inference-engineering-concepts/T1.29 KV transfer/README.md
-!/inference-engineering-concepts/T2.22 Context parallelism/
-/inference-engineering-concepts/T2.22 Context parallelism/*
-!/inference-engineering-concepts/T2.22 Context parallelism/README.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /
-/inference-engineering-concepts/T1.28 GPUDirect RDMA /*
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /README.md
-!/inference-engineering-concepts/T1.20 Collectives/
-/inference-engineering-concepts/T1.20 Collectives/*
-!/inference-engineering-concepts/T1.20 Collectives/README.md
-!/inference-engineering-concepts/T1.17 Data parallelism/
-/inference-engineering-concepts/T1.17 Data parallelism/*
-!/inference-engineering-concepts/T1.17 Data parallelism/README.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /
-/inference-engineering-concepts/T1.37 vLLM Internals /*
-!/inference-engineering-concepts/T1.37 vLLM Internals /README.md
-!/inference-engineering-concepts/T2.29 Rollout Serving/
-/inference-engineering-concepts/T2.29 Rollout Serving/*
-!/inference-engineering-concepts/T2.29 Rollout Serving/README.md
-!/inference-engineering-concepts/T2.15 Autoscaling GPU Inference/
-/inference-engineering-concepts/T2.15 Autoscaling GPU Inference/*
-!/inference-engineering-concepts/T2.15 Autoscaling GPU Inference/README.md
-!/inference-engineering-concepts/T2.23 Advanced MoE/
-/inference-engineering-concepts/T2.23 Advanced MoE/*
-!/inference-engineering-concepts/T2.23 Advanced MoE/README.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/
-/inference-engineering-concepts/T1.18 Expert parallelism/*
-!/inference-engineering-concepts/T1.18 Expert parallelism/README.md
-!/inference-engineering-concepts/T1.35 MoE Inference/
-/inference-engineering-concepts/T1.35 MoE Inference/*
-!/inference-engineering-concepts/T1.35 MoE Inference/README.md
-!/inference-engineering-concepts/T2.04 Kernel Fusion /
-/inference-engineering-concepts/T2.04 Kernel Fusion /*
-!/inference-engineering-concepts/T2.04 Kernel Fusion /README.md
-!/inference-engineering-concepts/T2.11 GPUDirect Storage /
-/inference-engineering-concepts/T2.11 GPUDirect Storage /*
-!/inference-engineering-concepts/T2.11 GPUDirect Storage /README.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/
-/inference-engineering-concepts/T1.16 Pipeline paralellism/*
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/README.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/
-/inference-engineering-concepts/T1.22 NVLink NVSwitch/*
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/README.md
-!/inference-engineering-concepts/T2.19 Model Loading/
-/inference-engineering-concepts/T2.19 Model Loading/*
-!/inference-engineering-concepts/T2.19 Model Loading/README.md
-!/inference-engineering-concepts/T2.06 KVCache Quantization/
-/inference-engineering-concepts/T2.06 KVCache Quantization/*
-!/inference-engineering-concepts/T2.06 KVCache Quantization/README.md
-!/inference-engineering-concepts/T1.26 InfiniBand/
-/inference-engineering-concepts/T1.26 InfiniBand/*
-!/inference-engineering-concepts/T1.26 InfiniBand/README.md
-!/inference-engineering-concepts/T2.20 Multi-LoRA serving/
-/inference-engineering-concepts/T2.20 Multi-LoRA serving/*
-!/inference-engineering-concepts/T2.20 Multi-LoRA serving/README.md
-!/inference-engineering-concepts/T2.25 Topology-aware placement/
-/inference-engineering-concepts/T2.25 Topology-aware placement/*
-!/inference-engineering-concepts/T2.25 Topology-aware placement/README.md
-!/inference-engineering-concepts/T1.32 Quantization/
-/inference-engineering-concepts/T1.32 Quantization/*
-!/inference-engineering-concepts/T1.32 Quantization/README.md
-!/inference-engineering-concepts/T2.24 Network Congestion/
-/inference-engineering-concepts/T2.24 Network Congestion/*
-!/inference-engineering-concepts/T2.24 Network Congestion/README.md
-!/inference-engineering-concepts/T2.21 Long-context inference/
-/inference-engineering-concepts/T2.21 Long-context inference/*
-!/inference-engineering-concepts/T2.21 Long-context inference/README.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/
-/inference-engineering-concepts/T1.44 Capacity Planning/*
-!/inference-engineering-concepts/T1.44 Capacity Planning/README.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /
-/inference-engineering-concepts/T1.07 Chunked Prefill /*
-!/inference-engineering-concepts/T1.07 Chunked Prefill /README.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/
-/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/*
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/README.md
-!/inference-engineering-concepts/T2.10 NVMe - storage tiers /
-/inference-engineering-concepts/T2.10 NVMe - storage tiers /*
-!/inference-engineering-concepts/T2.10 NVMe - storage tiers /README.md
-!/inference-engineering-concepts/T2.13 Admission Control/
-/inference-engineering-concepts/T2.13 Admission Control/*
-!/inference-engineering-concepts/T2.13 Admission Control/README.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /
-/inference-engineering-concepts/T1.39 Tensor-RT LLM /*
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /README.md
-!/inference-engineering-concepts/T2.28 GRPO PPO RLHF/
-/inference-engineering-concepts/T2.28 GRPO PPO RLHF/*
-!/inference-engineering-concepts/T2.28 GRPO PPO RLHF/README.md
-!/inference-engineering-concepts/T2.07 Prefix Caching/
-/inference-engineering-concepts/T2.07 Prefix Caching/*
-!/inference-engineering-concepts/T2.07 Prefix Caching/README.md
-!/inference-engineering-concepts/T2.16 Kubernetes GPU Scheduling /
-/inference-engineering-concepts/T2.16 Kubernetes GPU Scheduling /*
-!/inference-engineering-concepts/T2.16 Kubernetes GPU Scheduling /README.md
-!/inference-engineering-concepts/T1.30 NIXL /
-/inference-engineering-concepts/T1.30 NIXL /*
-!/inference-engineering-concepts/T1.30 NIXL /README.md
-!/inference-engineering-concepts/T1.03 KV Cache /
-/inference-engineering-concepts/T1.03 KV Cache /*
-!/inference-engineering-concepts/T1.03 KV Cache /README.md
-!/inference-engineering-concepts/T2.02 CUTLASS - CuTe/
-/inference-engineering-concepts/T2.02 CUTLASS - CuTe/*
-!/inference-engineering-concepts/T2.02 CUTLASS - CuTe/README.md
-!/inference-engineering-concepts/T1.21 PCIe/
-/inference-engineering-concepts/T1.21 PCIe/*
-!/inference-engineering-concepts/T1.21 PCIe/README.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/
-/inference-engineering-concepts/T1.38 SGLang Architecture/*
-!/inference-engineering-concepts/T1.38 SGLang Architecture/README.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /
-/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /*
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /README.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/
-/inference-engineering-concepts/T1.43 Bottleneck Analysis/*
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/README.md
-!/inference-engineering-concepts/T2.27 SFT/
-/inference-engineering-concepts/T2.27 SFT/*
-!/inference-engineering-concepts/T2.27 SFT/README.md
-!/inference-engineering-concepts/T1.27 RoCE/
-/inference-engineering-concepts/T1.27 RoCE/*
-!/inference-engineering-concepts/T1.27 RoCE/README.md
-!/inference-engineering-concepts/T2.08 Distributed KV Cache /
-/inference-engineering-concepts/T2.08 Distributed KV Cache /*
-!/inference-engineering-concepts/T2.08 Distributed KV Cache /README.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /
-/inference-engineering-concepts/T1.12 Roofline Reasoning /*
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /README.md
-!/inference-engineering-concepts/T2.31 Colocated vs disaggregated RL/
-/inference-engineering-concepts/T2.31 Colocated vs disaggregated RL/*
-!/inference-engineering-concepts/T2.31 Colocated vs disaggregated RL/README.md
-!/inference-engineering-concepts/T2.32 AMD ROCm inference/
-/inference-engineering-concepts/T2.32 AMD ROCm inference/*
-!/inference-engineering-concepts/T2.32 AMD ROCm inference/README.md
-!/inference-engineering-concepts/T2.33 Benchmark Methodology /
-/inference-engineering-concepts/T2.33 Benchmark Methodology /*
-!/inference-engineering-concepts/T2.33 Benchmark Methodology /README.md
-!/inference-engineering-concepts/T2.03 torch.compile /
-/inference-engineering-concepts/T2.03 torch.compile /*
-!/inference-engineering-concepts/T2.03 torch.compile /README.md
-!/inference-engineering-concepts/T2.30 Weight Synchronization/
-/inference-engineering-concepts/T2.30 Weight Synchronization/*
-!/inference-engineering-concepts/T2.30 Weight Synchronization/README.md
-!/inference-engineering-concepts/T2.09 KV Offloading /
-/inference-engineering-concepts/T2.09 KV Offloading /*
-!/inference-engineering-concepts/T2.09 KV Offloading /README.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /
-/inference-engineering-concepts/T1.36 Speculative Decoding /*
-!/inference-engineering-concepts/T1.36 Speculative Decoding /README.md
-!/inference-engineering-concepts/T1.25 Memory Registration /
-/inference-engineering-concepts/T1.25 Memory Registration /*
-!/inference-engineering-concepts/T1.25 Memory Registration /README.md
-!/inference-engineering-concepts/SUBJECTS.md
-!/inference-engineering-concepts/COVERAGE.md
-!/inference-engineering-concepts/RESEARCH_CONTEXT.md
+!/tech/T1.23 NUMA/
+/tech/T1.23 NUMA/*
+!/tech/T1.23 NUMA/README.md
+!/tech/T1.13 CUDA Fundamentals /
+/tech/T1.13 CUDA Fundamentals /*
+!/tech/T1.13 CUDA Fundamentals /README.md
+!/tech/T2.18 Fault Tolerance/
+/tech/T2.18 Fault Tolerance/*
+!/tech/T2.18 Fault Tolerance/README.md
+!/tech/T2.17 Multi-Node serving/
+/tech/T2.17 Multi-Node serving/*
+!/tech/T2.17 Multi-Node serving/README.md
+!/tech/T1.42 GPU Observability/
+/tech/T1.42 GPU Observability/*
+!/tech/T1.42 GPU Observability/README.md
+!/tech/T1.09 Workload Characterization/
+/tech/T1.09 Workload Characterization/*
+!/tech/T1.09 Workload Characterization/README.md
+!/tech/T2.26 Post-training systems /
+/tech/T2.26 Post-training systems /*
+!/tech/T2.26 Post-training systems /README.md
+!/tech/T1.31 prefill /
+/tech/T1.31 prefill /*
+!/tech/T1.31 prefill /README.md
+!/tech/T1.41 Profiling/
+/tech/T1.41 Profiling/*
+!/tech/T1.41 Profiling/README.md
+!/tech/T1.06 Continous Batching /
+/tech/T1.06 Continous Batching /*
+!/tech/T1.06 Continous Batching /README.md
+!/tech/T2.14 Backpressure/
+/tech/T2.14 Backpressure/*
+!/tech/T2.14 Backpressure/README.md
+!/tech/T1.05 Prefill vs Decode /
+/tech/T1.05 Prefill vs Decode /*
+!/tech/T1.05 Prefill vs Decode /README.md
+!/tech/T1.14 CUDA streams - events/
+/tech/T1.14 CUDA streams - events/*
+!/tech/T1.14 CUDA streams - events/README.md
+!/tech/T1.33 GQA - MQA - MLA /
+/tech/T1.33 GQA - MQA - MLA /*
+!/tech/T1.33 GQA - MQA - MLA /README.md
+!/tech/T1.15 Tensor parallelism/
+/tech/T1.15 Tensor parallelism/*
+!/tech/T1.15 Tensor parallelism/README.md
+!/tech/T2.01 Triton Kernel Programming/
+/tech/T2.01 Triton Kernel Programming/*
+!/tech/T2.01 Triton Kernel Programming/README.md
+!/tech/T1.40 NVIDIA Dynamo /
+/tech/T1.40 NVIDIA Dynamo /*
+!/tech/T1.40 NVIDIA Dynamo /README.md
+!/tech/T1.19 NCCL /
+/tech/T1.19 NCCL /*
+!/tech/T1.19 NCCL /README.md
+!/tech/T1.10 GPU Architecture Basics/
+/tech/T1.10 GPU Architecture Basics/*
+!/tech/T1.10 GPU Architecture Basics/README.md
+!/tech/T1.45 Inference Economics/
+/tech/T1.45 Inference Economics/*
+!/tech/T1.45 Inference Economics/README.md
+!/tech/T1.08 Serving metrics/
+/tech/T1.08 Serving metrics/*
+!/tech/T1.08 Serving metrics/README.md
+!/tech/T2.05 Advanced Quantization/
+/tech/T2.05 Advanced Quantization/*
+!/tech/T2.05 Advanced Quantization/README.md
+!/tech/T1.24 RDMA Fundamentals /
+/tech/T1.24 RDMA Fundamentals /*
+!/tech/T1.24 RDMA Fundamentals /README.md
+!/tech/T1.02 Transformer Inference Architecture/
+/tech/T1.02 Transformer Inference Architecture/*
+!/tech/T1.02 Transformer Inference Architecture/README.md
+!/tech/T1.11 GPU memory hierarchy/
+/tech/T1.11 GPU memory hierarchy/*
+!/tech/T1.11 GPU memory hierarchy/README.md
+!/tech/T2.12 Advanced Routing/
+/tech/T2.12 Advanced Routing/*
+!/tech/T2.12 Advanced Routing/README.md
+!/tech/T1.29 KV transfer/
+/tech/T1.29 KV transfer/*
+!/tech/T1.29 KV transfer/README.md
+!/tech/T2.22 Context parallelism/
+/tech/T2.22 Context parallelism/*
+!/tech/T2.22 Context parallelism/README.md
+!/tech/T1.28 GPUDirect RDMA /
+/tech/T1.28 GPUDirect RDMA /*
+!/tech/T1.28 GPUDirect RDMA /README.md
+!/tech/T1.20 Collectives/
+/tech/T1.20 Collectives/*
+!/tech/T1.20 Collectives/README.md
+!/tech/T1.17 Data parallelism/
+/tech/T1.17 Data parallelism/*
+!/tech/T1.17 Data parallelism/README.md
+!/tech/T1.37 vLLM Internals /
+/tech/T1.37 vLLM Internals /*
+!/tech/T1.37 vLLM Internals /README.md
+!/tech/T2.29 Rollout Serving/
+/tech/T2.29 Rollout Serving/*
+!/tech/T2.29 Rollout Serving/README.md
+!/tech/T2.15 Autoscaling GPU Inference/
+/tech/T2.15 Autoscaling GPU Inference/*
+!/tech/T2.15 Autoscaling GPU Inference/README.md
+!/tech/T2.23 Advanced MoE/
+/tech/T2.23 Advanced MoE/*
+!/tech/T2.23 Advanced MoE/README.md
+!/tech/T1.18 Expert parallelism/
+/tech/T1.18 Expert parallelism/*
+!/tech/T1.18 Expert parallelism/README.md
+!/tech/T1.35 MoE Inference/
+/tech/T1.35 MoE Inference/*
+!/tech/T1.35 MoE Inference/README.md
+!/tech/T2.04 Kernel Fusion /
+/tech/T2.04 Kernel Fusion /*
+!/tech/T2.04 Kernel Fusion /README.md
+!/tech/T2.11 GPUDirect Storage /
+/tech/T2.11 GPUDirect Storage /*
+!/tech/T2.11 GPUDirect Storage /README.md
+!/tech/T1.16 Pipeline paralellism/
+/tech/T1.16 Pipeline paralellism/*
+!/tech/T1.16 Pipeline paralellism/README.md
+!/tech/T1.22 NVLink NVSwitch/
+/tech/T1.22 NVLink NVSwitch/*
+!/tech/T1.22 NVLink NVSwitch/README.md
+!/tech/T2.19 Model Loading/
+/tech/T2.19 Model Loading/*
+!/tech/T2.19 Model Loading/README.md
+!/tech/T2.06 KVCache Quantization/
+/tech/T2.06 KVCache Quantization/*
+!/tech/T2.06 KVCache Quantization/README.md
+!/tech/T1.26 InfiniBand/
+/tech/T1.26 InfiniBand/*
+!/tech/T1.26 InfiniBand/README.md
+!/tech/T2.20 Multi-LoRA serving/
+/tech/T2.20 Multi-LoRA serving/*
+!/tech/T2.20 Multi-LoRA serving/README.md
+!/tech/T2.25 Topology-aware placement/
+/tech/T2.25 Topology-aware placement/*
+!/tech/T2.25 Topology-aware placement/README.md
+!/tech/T1.32 Quantization/
+/tech/T1.32 Quantization/*
+!/tech/T1.32 Quantization/README.md
+!/tech/T2.24 Network Congestion/
+/tech/T2.24 Network Congestion/*
+!/tech/T2.24 Network Congestion/README.md
+!/tech/T2.21 Long-context inference/
+/tech/T2.21 Long-context inference/*
+!/tech/T2.21 Long-context inference/README.md
+!/tech/T1.44 Capacity Planning/
+/tech/T1.44 Capacity Planning/*
+!/tech/T1.44 Capacity Planning/README.md
+!/tech/T1.07 Chunked Prefill /
+/tech/T1.07 Chunked Prefill /*
+!/tech/T1.07 Chunked Prefill /README.md
+!/tech/T1.34 Flash Attention - Optimised Attention/
+/tech/T1.34 Flash Attention - Optimised Attention/*
+!/tech/T1.34 Flash Attention - Optimised Attention/README.md
+!/tech/T2.10 NVMe - storage tiers /
+/tech/T2.10 NVMe - storage tiers /*
+!/tech/T2.10 NVMe - storage tiers /README.md
+!/tech/T2.13 Admission Control/
+/tech/T2.13 Admission Control/*
+!/tech/T2.13 Admission Control/README.md
+!/tech/T1.39 Tensor-RT LLM /
+/tech/T1.39 Tensor-RT LLM /*
+!/tech/T1.39 Tensor-RT LLM /README.md
+!/tech/T2.28 GRPO PPO RLHF/
+/tech/T2.28 GRPO PPO RLHF/*
+!/tech/T2.28 GRPO PPO RLHF/README.md
+!/tech/T2.07 Prefix Caching/
+/tech/T2.07 Prefix Caching/*
+!/tech/T2.07 Prefix Caching/README.md
+!/tech/T2.16 Kubernetes GPU Scheduling /
+/tech/T2.16 Kubernetes GPU Scheduling /*
+!/tech/T2.16 Kubernetes GPU Scheduling /README.md
+!/tech/T1.30 NIXL /
+/tech/T1.30 NIXL /*
+!/tech/T1.30 NIXL /README.md
+!/tech/T1.03 KV Cache /
+/tech/T1.03 KV Cache /*
+!/tech/T1.03 KV Cache /README.md
+!/tech/T2.02 CUTLASS - CuTe/
+/tech/T2.02 CUTLASS - CuTe/*
+!/tech/T2.02 CUTLASS - CuTe/README.md
+!/tech/T1.21 PCIe/
+/tech/T1.21 PCIe/*
+!/tech/T1.21 PCIe/README.md
+!/tech/T1.38 SGLang Architecture/
+/tech/T1.38 SGLang Architecture/*
+!/tech/T1.38 SGLang Architecture/README.md
+!/tech/T1.04 Paged Attention - KV Memory Management /
+/tech/T1.04 Paged Attention - KV Memory Management /*
+!/tech/T1.04 Paged Attention - KV Memory Management /README.md
+!/tech/T1.43 Bottleneck Analysis/
+/tech/T1.43 Bottleneck Analysis/*
+!/tech/T1.43 Bottleneck Analysis/README.md
+!/tech/T2.27 SFT/
+/tech/T2.27 SFT/*
+!/tech/T2.27 SFT/README.md
+!/tech/T1.27 RoCE/
+/tech/T1.27 RoCE/*
+!/tech/T1.27 RoCE/README.md
+!/tech/T2.08 Distributed KV Cache /
+/tech/T2.08 Distributed KV Cache /*
+!/tech/T2.08 Distributed KV Cache /README.md
+!/tech/T1.12 Roofline Reasoning /
+/tech/T1.12 Roofline Reasoning /*
+!/tech/T1.12 Roofline Reasoning /README.md
+!/tech/T2.31 Colocated vs disaggregated RL/
+/tech/T2.31 Colocated vs disaggregated RL/*
+!/tech/T2.31 Colocated vs disaggregated RL/README.md
+!/tech/T2.32 AMD ROCm inference/
+/tech/T2.32 AMD ROCm inference/*
+!/tech/T2.32 AMD ROCm inference/README.md
+!/tech/T2.33 Benchmark Methodology /
+/tech/T2.33 Benchmark Methodology /*
+!/tech/T2.33 Benchmark Methodology /README.md
+!/tech/T2.03 torch.compile /
+/tech/T2.03 torch.compile /*
+!/tech/T2.03 torch.compile /README.md
+!/tech/T2.30 Weight Synchronization/
+/tech/T2.30 Weight Synchronization/*
+!/tech/T2.30 Weight Synchronization/README.md
+!/tech/T2.09 KV Offloading /
+/tech/T2.09 KV Offloading /*
+!/tech/T2.09 KV Offloading /README.md
+!/tech/T1.36 Speculative Decoding /
+/tech/T1.36 Speculative Decoding /*
+!/tech/T1.36 Speculative Decoding /README.md
+!/tech/T1.25 Memory Registration /
+/tech/T1.25 Memory Registration /*
+!/tech/T1.25 Memory Registration /README.md
+!/tech/SUBJECTS.md
+!/tech/COVERAGE.md
+!/tech/RESEARCH_CONTEXT.md
 
 # Exact user-requested Tier 3 architecture and modality extensions.
-!/inference-engineering-concepts/T3.01 Mamba and State Space Models/
-/inference-engineering-concepts/T3.01 Mamba and State Space Models/*
-!/inference-engineering-concepts/T3.01 Mamba and State Space Models/README.md
-!/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/
-/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/*
-!/inference-engineering-concepts/T3.02 Hybrid Mamba and Attention Architectures/README.md
-!/inference-engineering-concepts/T3.03 Diffusion Language Models/
-/inference-engineering-concepts/T3.03 Diffusion Language Models/*
-!/inference-engineering-concepts/T3.03 Diffusion Language Models/README.md
-!/inference-engineering-concepts/T3.04 Image Diffusion Inference/
-/inference-engineering-concepts/T3.04 Image Diffusion Inference/*
-!/inference-engineering-concepts/T3.04 Image Diffusion Inference/README.md
-!/inference-engineering-concepts/T3.05 Video Generation Inference/
-/inference-engineering-concepts/T3.05 Video Generation Inference/*
-!/inference-engineering-concepts/T3.05 Video Generation Inference/README.md
-!/inference-engineering-concepts/T3.06 Multimodal Inference/
-/inference-engineering-concepts/T3.06 Multimodal Inference/*
-!/inference-engineering-concepts/T3.06 Multimodal Inference/README.md
-!/inference-engineering-concepts/T3.07 Speech Inference/
-/inference-engineering-concepts/T3.07 Speech Inference/*
-!/inference-engineering-concepts/T3.07 Speech Inference/README.md
+!/tech/T3.01 Mamba and State Space Models/
+/tech/T3.01 Mamba and State Space Models/*
+!/tech/T3.01 Mamba and State Space Models/README.md
+!/tech/T3.02 Hybrid Mamba and Attention Architectures/
+/tech/T3.02 Hybrid Mamba and Attention Architectures/*
+!/tech/T3.02 Hybrid Mamba and Attention Architectures/README.md
+!/tech/T3.03 Diffusion Language Models/
+/tech/T3.03 Diffusion Language Models/*
+!/tech/T3.03 Diffusion Language Models/README.md
+!/tech/T3.04 Image Diffusion Inference/
+/tech/T3.04 Image Diffusion Inference/*
+!/tech/T3.04 Image Diffusion Inference/README.md
+!/tech/T3.05 Video Generation Inference/
+/tech/T3.05 Video Generation Inference/*
+!/tech/T3.05 Video Generation Inference/README.md
+!/tech/T3.06 Multimodal Inference/
+/tech/T3.06 Multimodal Inference/*
+!/tech/T3.06 Multimodal Inference/README.md
+!/tech/T3.07 Speech Inference/
+/tech/T3.07 Speech Inference/*
+!/tech/T3.07 Speech Inference/README.md
 
 # Exact requested T1.01 technical lab guides; executable tooling, sources and results stay private.
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/environment.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/README.md
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/
-/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/*
-!/inference-engineering-concepts/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/
+/tech/T1.01 LLM Inference Lifecycle/labs/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/environment.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-00-environment/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-01-rendered-prompt/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-02-tokenizer-autopsy/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-03-toy-bpe/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-04-reference-generation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-05-k-minus-one/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-06-sampling/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-07-streaming/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-08-request-autopsy/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-09-harness-validation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-10-prefill-scaling/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-11-decode-scaling/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-12-kv-math/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-13-paged-kv/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-14-continuous-batching/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-15-arrival-process/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-16-chunked-prefill/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-17-prefix-perturbation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-18-structured-output/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-19-cancellation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-20-cold-starts/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-21-projection-roofline/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-22-decode-bytes/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-23-quantization/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-24-cuda-graphs/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-25-profiling-ladder/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-26-clock-reconciliation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-27-preemption/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-28-speculation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-29-parallelism/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-30-disaggregation/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-31-tiered-kv/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-32-kv-routing/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-33-capacity-goodput/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-34-diagnosis-gauntlet/README.md
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/
+/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/*
+!/tech/T1.01 LLM Inference Lifecycle/labs/lab-35-capstone/README.md
 
 # BEGIN T1.02-T1.45 exact Runpod lab guide allowlist
 # Public-eligible guide files only; catalogs, code, raw results and evidence stay ignored.
-!/inference-engineering-concepts/T1-LABS.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/
-/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/*
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/README.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/environment.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.03 KV Cache /labs/
-/inference-engineering-concepts/T1.03 KV Cache /labs/*
-!/inference-engineering-concepts/T1.03 KV Cache /labs/README.md
-!/inference-engineering-concepts/T1.03 KV Cache /labs/environment.md
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.03 KV Cache /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.03 KV Cache /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.03 KV Cache /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.03 KV Cache /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/
-/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/*
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/README.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/environment.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/
-/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/*
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/README.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/environment.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/
-/inference-engineering-concepts/T1.06 Continous Batching /labs/*
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/README.md
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/environment.md
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.06 Continous Batching /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/
-/inference-engineering-concepts/T1.07 Chunked Prefill /labs/*
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/README.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/environment.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.07 Chunked Prefill /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/
-/inference-engineering-concepts/T1.08 Serving metrics/labs/*
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/README.md
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/environment.md
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.08 Serving metrics/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/
-/inference-engineering-concepts/T1.09 Workload Characterization/labs/*
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/README.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/environment.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.09 Workload Characterization/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/
-/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/*
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/README.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/environment.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/
-/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/*
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/README.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/environment.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/
-/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/*
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/README.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/environment.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/
-/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/*
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/README.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/environment.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/
-/inference-engineering-concepts/T1.14 CUDA streams - events/labs/*
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/README.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/environment.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.14 CUDA streams - events/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/
-/inference-engineering-concepts/T1.15 Tensor parallelism/labs/*
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/README.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/environment.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.15 Tensor parallelism/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/
-/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/*
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/README.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/environment.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/
-/inference-engineering-concepts/T1.17 Data parallelism/labs/*
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/README.md
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/environment.md
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.17 Data parallelism/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/
-/inference-engineering-concepts/T1.18 Expert parallelism/labs/*
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/README.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/environment.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.18 Expert parallelism/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.19 NCCL /labs/
-/inference-engineering-concepts/T1.19 NCCL /labs/*
-!/inference-engineering-concepts/T1.19 NCCL /labs/README.md
-!/inference-engineering-concepts/T1.19 NCCL /labs/environment.md
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.19 NCCL /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.19 NCCL /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.19 NCCL /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.19 NCCL /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.20 Collectives/labs/
-/inference-engineering-concepts/T1.20 Collectives/labs/*
-!/inference-engineering-concepts/T1.20 Collectives/labs/README.md
-!/inference-engineering-concepts/T1.20 Collectives/labs/environment.md
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.20 Collectives/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.20 Collectives/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.20 Collectives/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.20 Collectives/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.21 PCIe/labs/
-/inference-engineering-concepts/T1.21 PCIe/labs/*
-!/inference-engineering-concepts/T1.21 PCIe/labs/README.md
-!/inference-engineering-concepts/T1.21 PCIe/labs/environment.md
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.21 PCIe/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.21 PCIe/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.21 PCIe/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.21 PCIe/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/
-/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/*
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/README.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/environment.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.23 NUMA/labs/
-/inference-engineering-concepts/T1.23 NUMA/labs/*
-!/inference-engineering-concepts/T1.23 NUMA/labs/README.md
-!/inference-engineering-concepts/T1.23 NUMA/labs/environment.md
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.23 NUMA/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.23 NUMA/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.23 NUMA/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.23 NUMA/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/
-/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/*
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/README.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/environment.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/
-/inference-engineering-concepts/T1.25 Memory Registration /labs/*
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/README.md
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/environment.md
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.25 Memory Registration /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/
-/inference-engineering-concepts/T1.26 InfiniBand/labs/*
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/README.md
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/environment.md
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.26 InfiniBand/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.27 RoCE/labs/
-/inference-engineering-concepts/T1.27 RoCE/labs/*
-!/inference-engineering-concepts/T1.27 RoCE/labs/README.md
-!/inference-engineering-concepts/T1.27 RoCE/labs/environment.md
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.27 RoCE/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.27 RoCE/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.27 RoCE/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.27 RoCE/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/
-/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/*
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/README.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/environment.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.29 KV transfer/labs/
-/inference-engineering-concepts/T1.29 KV transfer/labs/*
-!/inference-engineering-concepts/T1.29 KV transfer/labs/README.md
-!/inference-engineering-concepts/T1.29 KV transfer/labs/environment.md
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.29 KV transfer/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.29 KV transfer/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.29 KV transfer/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.29 KV transfer/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.30 NIXL /labs/
-/inference-engineering-concepts/T1.30 NIXL /labs/*
-!/inference-engineering-concepts/T1.30 NIXL /labs/README.md
-!/inference-engineering-concepts/T1.30 NIXL /labs/environment.md
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.30 NIXL /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.30 NIXL /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.30 NIXL /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.30 NIXL /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.31 prefill /labs/
-/inference-engineering-concepts/T1.31 prefill /labs/*
-!/inference-engineering-concepts/T1.31 prefill /labs/README.md
-!/inference-engineering-concepts/T1.31 prefill /labs/environment.md
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.31 prefill /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.31 prefill /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.31 prefill /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.31 prefill /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.32 Quantization/labs/
-/inference-engineering-concepts/T1.32 Quantization/labs/*
-!/inference-engineering-concepts/T1.32 Quantization/labs/README.md
-!/inference-engineering-concepts/T1.32 Quantization/labs/environment.md
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.32 Quantization/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.32 Quantization/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.32 Quantization/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.32 Quantization/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/
-/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/*
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/README.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/environment.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/
-/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/*
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/README.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/environment.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/
-/inference-engineering-concepts/T1.35 MoE Inference/labs/*
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/README.md
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/environment.md
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.35 MoE Inference/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/
-/inference-engineering-concepts/T1.36 Speculative Decoding /labs/*
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/README.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/environment.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.36 Speculative Decoding /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/
-/inference-engineering-concepts/T1.37 vLLM Internals /labs/*
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/README.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/environment.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.37 vLLM Internals /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/
-/inference-engineering-concepts/T1.38 SGLang Architecture/labs/*
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/README.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/environment.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.38 SGLang Architecture/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/
-/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/*
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/README.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/environment.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/
-/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/*
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/README.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/environment.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/
-/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.41 Profiling/labs/
-/inference-engineering-concepts/T1.41 Profiling/labs/*
-!/inference-engineering-concepts/T1.41 Profiling/labs/README.md
-!/inference-engineering-concepts/T1.41 Profiling/labs/environment.md
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.41 Profiling/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.41 Profiling/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.41 Profiling/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.41 Profiling/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/
-/inference-engineering-concepts/T1.42 GPU Observability/labs/*
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/README.md
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/environment.md
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.42 GPU Observability/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/
-/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/*
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/README.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/environment.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/
-/inference-engineering-concepts/T1.44 Capacity Planning/labs/*
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/README.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/environment.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.44 Capacity Planning/labs/lab-02-boundary-case/README.md
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/
-/inference-engineering-concepts/T1.45 Inference Economics/labs/*
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/README.md
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/environment.md
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-00-foundation/
-/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-00-foundation/*
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-00-foundation/README.md
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-01-controlled-sweep/
-/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-01-controlled-sweep/*
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-01-controlled-sweep/README.md
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-02-boundary-case/
-/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-02-boundary-case/*
-!/inference-engineering-concepts/T1.45 Inference Economics/labs/lab-02-boundary-case/README.md
+!/tech/T1-LABS.md
+!/tech/T1.02 Transformer Inference Architecture/labs/
+/tech/T1.02 Transformer Inference Architecture/labs/*
+!/tech/T1.02 Transformer Inference Architecture/labs/README.md
+!/tech/T1.02 Transformer Inference Architecture/labs/environment.md
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/
+/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/*
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-00-foundation/README.md
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/
+/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/*
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/
+/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/*
+!/tech/T1.02 Transformer Inference Architecture/labs/lab-02-boundary-case/README.md
+!/tech/T1.03 KV Cache /labs/
+/tech/T1.03 KV Cache /labs/*
+!/tech/T1.03 KV Cache /labs/README.md
+!/tech/T1.03 KV Cache /labs/environment.md
+!/tech/T1.03 KV Cache /labs/lab-00-foundation/
+/tech/T1.03 KV Cache /labs/lab-00-foundation/*
+!/tech/T1.03 KV Cache /labs/lab-00-foundation/README.md
+!/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/
+/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/*
+!/tech/T1.03 KV Cache /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.03 KV Cache /labs/lab-02-boundary-case/
+/tech/T1.03 KV Cache /labs/lab-02-boundary-case/*
+!/tech/T1.03 KV Cache /labs/lab-02-boundary-case/README.md
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/
+/tech/T1.04 Paged Attention - KV Memory Management /labs/*
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/README.md
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/environment.md
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/
+/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/*
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-00-foundation/README.md
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/
+/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/*
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/
+/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/*
+!/tech/T1.04 Paged Attention - KV Memory Management /labs/lab-02-boundary-case/README.md
+!/tech/T1.05 Prefill vs Decode /labs/
+/tech/T1.05 Prefill vs Decode /labs/*
+!/tech/T1.05 Prefill vs Decode /labs/README.md
+!/tech/T1.05 Prefill vs Decode /labs/environment.md
+!/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/
+/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/*
+!/tech/T1.05 Prefill vs Decode /labs/lab-00-foundation/README.md
+!/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/
+/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/*
+!/tech/T1.05 Prefill vs Decode /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/
+/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/*
+!/tech/T1.05 Prefill vs Decode /labs/lab-02-boundary-case/README.md
+!/tech/T1.06 Continous Batching /labs/
+/tech/T1.06 Continous Batching /labs/*
+!/tech/T1.06 Continous Batching /labs/README.md
+!/tech/T1.06 Continous Batching /labs/environment.md
+!/tech/T1.06 Continous Batching /labs/lab-00-foundation/
+/tech/T1.06 Continous Batching /labs/lab-00-foundation/*
+!/tech/T1.06 Continous Batching /labs/lab-00-foundation/README.md
+!/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/
+/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/*
+!/tech/T1.06 Continous Batching /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/
+/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/*
+!/tech/T1.06 Continous Batching /labs/lab-02-boundary-case/README.md
+!/tech/T1.07 Chunked Prefill /labs/
+/tech/T1.07 Chunked Prefill /labs/*
+!/tech/T1.07 Chunked Prefill /labs/README.md
+!/tech/T1.07 Chunked Prefill /labs/environment.md
+!/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/
+/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/*
+!/tech/T1.07 Chunked Prefill /labs/lab-00-foundation/README.md
+!/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/
+/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/*
+!/tech/T1.07 Chunked Prefill /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/
+/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/*
+!/tech/T1.07 Chunked Prefill /labs/lab-02-boundary-case/README.md
+!/tech/T1.08 Serving metrics/labs/
+/tech/T1.08 Serving metrics/labs/*
+!/tech/T1.08 Serving metrics/labs/README.md
+!/tech/T1.08 Serving metrics/labs/environment.md
+!/tech/T1.08 Serving metrics/labs/lab-00-foundation/
+/tech/T1.08 Serving metrics/labs/lab-00-foundation/*
+!/tech/T1.08 Serving metrics/labs/lab-00-foundation/README.md
+!/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/
+/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/*
+!/tech/T1.08 Serving metrics/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/
+/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/*
+!/tech/T1.08 Serving metrics/labs/lab-02-boundary-case/README.md
+!/tech/T1.09 Workload Characterization/labs/
+/tech/T1.09 Workload Characterization/labs/*
+!/tech/T1.09 Workload Characterization/labs/README.md
+!/tech/T1.09 Workload Characterization/labs/environment.md
+!/tech/T1.09 Workload Characterization/labs/lab-00-foundation/
+/tech/T1.09 Workload Characterization/labs/lab-00-foundation/*
+!/tech/T1.09 Workload Characterization/labs/lab-00-foundation/README.md
+!/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/
+/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/*
+!/tech/T1.09 Workload Characterization/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/
+/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/*
+!/tech/T1.09 Workload Characterization/labs/lab-02-boundary-case/README.md
+!/tech/T1.10 GPU Architecture Basics/labs/
+/tech/T1.10 GPU Architecture Basics/labs/*
+!/tech/T1.10 GPU Architecture Basics/labs/README.md
+!/tech/T1.10 GPU Architecture Basics/labs/environment.md
+!/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/
+/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/*
+!/tech/T1.10 GPU Architecture Basics/labs/lab-00-foundation/README.md
+!/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/
+/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/*
+!/tech/T1.10 GPU Architecture Basics/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/
+/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/*
+!/tech/T1.10 GPU Architecture Basics/labs/lab-02-boundary-case/README.md
+!/tech/T1.11 GPU memory hierarchy/labs/
+/tech/T1.11 GPU memory hierarchy/labs/*
+!/tech/T1.11 GPU memory hierarchy/labs/README.md
+!/tech/T1.11 GPU memory hierarchy/labs/environment.md
+!/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/
+/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/*
+!/tech/T1.11 GPU memory hierarchy/labs/lab-00-foundation/README.md
+!/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/
+/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/*
+!/tech/T1.11 GPU memory hierarchy/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/
+/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/*
+!/tech/T1.11 GPU memory hierarchy/labs/lab-02-boundary-case/README.md
+!/tech/T1.12 Roofline Reasoning /labs/
+/tech/T1.12 Roofline Reasoning /labs/*
+!/tech/T1.12 Roofline Reasoning /labs/README.md
+!/tech/T1.12 Roofline Reasoning /labs/environment.md
+!/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/
+/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/*
+!/tech/T1.12 Roofline Reasoning /labs/lab-00-foundation/README.md
+!/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/
+/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/*
+!/tech/T1.12 Roofline Reasoning /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/
+/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/*
+!/tech/T1.12 Roofline Reasoning /labs/lab-02-boundary-case/README.md
+!/tech/T1.13 CUDA Fundamentals /labs/
+/tech/T1.13 CUDA Fundamentals /labs/*
+!/tech/T1.13 CUDA Fundamentals /labs/README.md
+!/tech/T1.13 CUDA Fundamentals /labs/environment.md
+!/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/
+/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/*
+!/tech/T1.13 CUDA Fundamentals /labs/lab-00-foundation/README.md
+!/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/
+/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/*
+!/tech/T1.13 CUDA Fundamentals /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/
+/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/*
+!/tech/T1.13 CUDA Fundamentals /labs/lab-02-boundary-case/README.md
+!/tech/T1.14 CUDA streams - events/labs/
+/tech/T1.14 CUDA streams - events/labs/*
+!/tech/T1.14 CUDA streams - events/labs/README.md
+!/tech/T1.14 CUDA streams - events/labs/environment.md
+!/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/
+/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/*
+!/tech/T1.14 CUDA streams - events/labs/lab-00-foundation/README.md
+!/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/
+/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/*
+!/tech/T1.14 CUDA streams - events/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/
+/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/*
+!/tech/T1.14 CUDA streams - events/labs/lab-02-boundary-case/README.md
+!/tech/T1.15 Tensor parallelism/labs/
+/tech/T1.15 Tensor parallelism/labs/*
+!/tech/T1.15 Tensor parallelism/labs/README.md
+!/tech/T1.15 Tensor parallelism/labs/environment.md
+!/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/
+/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/*
+!/tech/T1.15 Tensor parallelism/labs/lab-00-foundation/README.md
+!/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/
+/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/*
+!/tech/T1.15 Tensor parallelism/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/
+/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/*
+!/tech/T1.15 Tensor parallelism/labs/lab-02-boundary-case/README.md
+!/tech/T1.16 Pipeline paralellism/labs/
+/tech/T1.16 Pipeline paralellism/labs/*
+!/tech/T1.16 Pipeline paralellism/labs/README.md
+!/tech/T1.16 Pipeline paralellism/labs/environment.md
+!/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/
+/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/*
+!/tech/T1.16 Pipeline paralellism/labs/lab-00-foundation/README.md
+!/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/
+/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/*
+!/tech/T1.16 Pipeline paralellism/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/
+/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/*
+!/tech/T1.16 Pipeline paralellism/labs/lab-02-boundary-case/README.md
+!/tech/T1.17 Data parallelism/labs/
+/tech/T1.17 Data parallelism/labs/*
+!/tech/T1.17 Data parallelism/labs/README.md
+!/tech/T1.17 Data parallelism/labs/environment.md
+!/tech/T1.17 Data parallelism/labs/lab-00-foundation/
+/tech/T1.17 Data parallelism/labs/lab-00-foundation/*
+!/tech/T1.17 Data parallelism/labs/lab-00-foundation/README.md
+!/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/
+/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/*
+!/tech/T1.17 Data parallelism/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/
+/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/*
+!/tech/T1.17 Data parallelism/labs/lab-02-boundary-case/README.md
+!/tech/T1.18 Expert parallelism/labs/
+/tech/T1.18 Expert parallelism/labs/*
+!/tech/T1.18 Expert parallelism/labs/README.md
+!/tech/T1.18 Expert parallelism/labs/environment.md
+!/tech/T1.18 Expert parallelism/labs/lab-00-foundation/
+/tech/T1.18 Expert parallelism/labs/lab-00-foundation/*
+!/tech/T1.18 Expert parallelism/labs/lab-00-foundation/README.md
+!/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/
+/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/*
+!/tech/T1.18 Expert parallelism/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/
+/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/*
+!/tech/T1.18 Expert parallelism/labs/lab-02-boundary-case/README.md
+!/tech/T1.19 NCCL /labs/
+/tech/T1.19 NCCL /labs/*
+!/tech/T1.19 NCCL /labs/README.md
+!/tech/T1.19 NCCL /labs/environment.md
+!/tech/T1.19 NCCL /labs/lab-00-foundation/
+/tech/T1.19 NCCL /labs/lab-00-foundation/*
+!/tech/T1.19 NCCL /labs/lab-00-foundation/README.md
+!/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/
+/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/*
+!/tech/T1.19 NCCL /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.19 NCCL /labs/lab-02-boundary-case/
+/tech/T1.19 NCCL /labs/lab-02-boundary-case/*
+!/tech/T1.19 NCCL /labs/lab-02-boundary-case/README.md
+!/tech/T1.20 Collectives/labs/
+/tech/T1.20 Collectives/labs/*
+!/tech/T1.20 Collectives/labs/README.md
+!/tech/T1.20 Collectives/labs/environment.md
+!/tech/T1.20 Collectives/labs/lab-00-foundation/
+/tech/T1.20 Collectives/labs/lab-00-foundation/*
+!/tech/T1.20 Collectives/labs/lab-00-foundation/README.md
+!/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/
+/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/*
+!/tech/T1.20 Collectives/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.20 Collectives/labs/lab-02-boundary-case/
+/tech/T1.20 Collectives/labs/lab-02-boundary-case/*
+!/tech/T1.20 Collectives/labs/lab-02-boundary-case/README.md
+!/tech/T1.21 PCIe/labs/
+/tech/T1.21 PCIe/labs/*
+!/tech/T1.21 PCIe/labs/README.md
+!/tech/T1.21 PCIe/labs/environment.md
+!/tech/T1.21 PCIe/labs/lab-00-foundation/
+/tech/T1.21 PCIe/labs/lab-00-foundation/*
+!/tech/T1.21 PCIe/labs/lab-00-foundation/README.md
+!/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/
+/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/*
+!/tech/T1.21 PCIe/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.21 PCIe/labs/lab-02-boundary-case/
+/tech/T1.21 PCIe/labs/lab-02-boundary-case/*
+!/tech/T1.21 PCIe/labs/lab-02-boundary-case/README.md
+!/tech/T1.22 NVLink NVSwitch/labs/
+/tech/T1.22 NVLink NVSwitch/labs/*
+!/tech/T1.22 NVLink NVSwitch/labs/README.md
+!/tech/T1.22 NVLink NVSwitch/labs/environment.md
+!/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/
+/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/*
+!/tech/T1.22 NVLink NVSwitch/labs/lab-00-foundation/README.md
+!/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/
+/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/*
+!/tech/T1.22 NVLink NVSwitch/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/
+/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/*
+!/tech/T1.22 NVLink NVSwitch/labs/lab-02-boundary-case/README.md
+!/tech/T1.23 NUMA/labs/
+/tech/T1.23 NUMA/labs/*
+!/tech/T1.23 NUMA/labs/README.md
+!/tech/T1.23 NUMA/labs/environment.md
+!/tech/T1.23 NUMA/labs/lab-00-foundation/
+/tech/T1.23 NUMA/labs/lab-00-foundation/*
+!/tech/T1.23 NUMA/labs/lab-00-foundation/README.md
+!/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/
+/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/*
+!/tech/T1.23 NUMA/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.23 NUMA/labs/lab-02-boundary-case/
+/tech/T1.23 NUMA/labs/lab-02-boundary-case/*
+!/tech/T1.23 NUMA/labs/lab-02-boundary-case/README.md
+!/tech/T1.24 RDMA Fundamentals /labs/
+/tech/T1.24 RDMA Fundamentals /labs/*
+!/tech/T1.24 RDMA Fundamentals /labs/README.md
+!/tech/T1.24 RDMA Fundamentals /labs/environment.md
+!/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/
+/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/*
+!/tech/T1.24 RDMA Fundamentals /labs/lab-00-foundation/README.md
+!/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/
+/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/*
+!/tech/T1.24 RDMA Fundamentals /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/
+/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/*
+!/tech/T1.24 RDMA Fundamentals /labs/lab-02-boundary-case/README.md
+!/tech/T1.25 Memory Registration /labs/
+/tech/T1.25 Memory Registration /labs/*
+!/tech/T1.25 Memory Registration /labs/README.md
+!/tech/T1.25 Memory Registration /labs/environment.md
+!/tech/T1.25 Memory Registration /labs/lab-00-foundation/
+/tech/T1.25 Memory Registration /labs/lab-00-foundation/*
+!/tech/T1.25 Memory Registration /labs/lab-00-foundation/README.md
+!/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/
+/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/*
+!/tech/T1.25 Memory Registration /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/
+/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/*
+!/tech/T1.25 Memory Registration /labs/lab-02-boundary-case/README.md
+!/tech/T1.26 InfiniBand/labs/
+/tech/T1.26 InfiniBand/labs/*
+!/tech/T1.26 InfiniBand/labs/README.md
+!/tech/T1.26 InfiniBand/labs/environment.md
+!/tech/T1.26 InfiniBand/labs/lab-00-foundation/
+/tech/T1.26 InfiniBand/labs/lab-00-foundation/*
+!/tech/T1.26 InfiniBand/labs/lab-00-foundation/README.md
+!/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/
+/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/*
+!/tech/T1.26 InfiniBand/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/
+/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/*
+!/tech/T1.26 InfiniBand/labs/lab-02-boundary-case/README.md
+!/tech/T1.27 RoCE/labs/
+/tech/T1.27 RoCE/labs/*
+!/tech/T1.27 RoCE/labs/README.md
+!/tech/T1.27 RoCE/labs/environment.md
+!/tech/T1.27 RoCE/labs/lab-00-foundation/
+/tech/T1.27 RoCE/labs/lab-00-foundation/*
+!/tech/T1.27 RoCE/labs/lab-00-foundation/README.md
+!/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/
+/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/*
+!/tech/T1.27 RoCE/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.27 RoCE/labs/lab-02-boundary-case/
+/tech/T1.27 RoCE/labs/lab-02-boundary-case/*
+!/tech/T1.27 RoCE/labs/lab-02-boundary-case/README.md
+!/tech/T1.28 GPUDirect RDMA /labs/
+/tech/T1.28 GPUDirect RDMA /labs/*
+!/tech/T1.28 GPUDirect RDMA /labs/README.md
+!/tech/T1.28 GPUDirect RDMA /labs/environment.md
+!/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/
+/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/*
+!/tech/T1.28 GPUDirect RDMA /labs/lab-00-foundation/README.md
+!/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/
+/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/*
+!/tech/T1.28 GPUDirect RDMA /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/
+/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/*
+!/tech/T1.28 GPUDirect RDMA /labs/lab-02-boundary-case/README.md
+!/tech/T1.29 KV transfer/labs/
+/tech/T1.29 KV transfer/labs/*
+!/tech/T1.29 KV transfer/labs/README.md
+!/tech/T1.29 KV transfer/labs/environment.md
+!/tech/T1.29 KV transfer/labs/lab-00-foundation/
+/tech/T1.29 KV transfer/labs/lab-00-foundation/*
+!/tech/T1.29 KV transfer/labs/lab-00-foundation/README.md
+!/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/
+/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/*
+!/tech/T1.29 KV transfer/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.29 KV transfer/labs/lab-02-boundary-case/
+/tech/T1.29 KV transfer/labs/lab-02-boundary-case/*
+!/tech/T1.29 KV transfer/labs/lab-02-boundary-case/README.md
+!/tech/T1.30 NIXL /labs/
+/tech/T1.30 NIXL /labs/*
+!/tech/T1.30 NIXL /labs/README.md
+!/tech/T1.30 NIXL /labs/environment.md
+!/tech/T1.30 NIXL /labs/lab-00-foundation/
+/tech/T1.30 NIXL /labs/lab-00-foundation/*
+!/tech/T1.30 NIXL /labs/lab-00-foundation/README.md
+!/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/
+/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/*
+!/tech/T1.30 NIXL /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.30 NIXL /labs/lab-02-boundary-case/
+/tech/T1.30 NIXL /labs/lab-02-boundary-case/*
+!/tech/T1.30 NIXL /labs/lab-02-boundary-case/README.md
+!/tech/T1.31 prefill /labs/
+/tech/T1.31 prefill /labs/*
+!/tech/T1.31 prefill /labs/README.md
+!/tech/T1.31 prefill /labs/environment.md
+!/tech/T1.31 prefill /labs/lab-00-foundation/
+/tech/T1.31 prefill /labs/lab-00-foundation/*
+!/tech/T1.31 prefill /labs/lab-00-foundation/README.md
+!/tech/T1.31 prefill /labs/lab-01-controlled-sweep/
+/tech/T1.31 prefill /labs/lab-01-controlled-sweep/*
+!/tech/T1.31 prefill /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.31 prefill /labs/lab-02-boundary-case/
+/tech/T1.31 prefill /labs/lab-02-boundary-case/*
+!/tech/T1.31 prefill /labs/lab-02-boundary-case/README.md
+!/tech/T1.32 Quantization/labs/
+/tech/T1.32 Quantization/labs/*
+!/tech/T1.32 Quantization/labs/README.md
+!/tech/T1.32 Quantization/labs/environment.md
+!/tech/T1.32 Quantization/labs/lab-00-foundation/
+/tech/T1.32 Quantization/labs/lab-00-foundation/*
+!/tech/T1.32 Quantization/labs/lab-00-foundation/README.md
+!/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/
+/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/*
+!/tech/T1.32 Quantization/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.32 Quantization/labs/lab-02-boundary-case/
+/tech/T1.32 Quantization/labs/lab-02-boundary-case/*
+!/tech/T1.32 Quantization/labs/lab-02-boundary-case/README.md
+!/tech/T1.33 GQA - MQA - MLA /labs/
+/tech/T1.33 GQA - MQA - MLA /labs/*
+!/tech/T1.33 GQA - MQA - MLA /labs/README.md
+!/tech/T1.33 GQA - MQA - MLA /labs/environment.md
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/
+/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/*
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-00-foundation/README.md
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/
+/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/*
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/
+/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/*
+!/tech/T1.33 GQA - MQA - MLA /labs/lab-02-boundary-case/README.md
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/
+/tech/T1.34 Flash Attention - Optimised Attention/labs/*
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/README.md
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/environment.md
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/
+/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/*
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-00-foundation/README.md
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/
+/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/*
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/
+/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/*
+!/tech/T1.34 Flash Attention - Optimised Attention/labs/lab-02-boundary-case/README.md
+!/tech/T1.35 MoE Inference/labs/
+/tech/T1.35 MoE Inference/labs/*
+!/tech/T1.35 MoE Inference/labs/README.md
+!/tech/T1.35 MoE Inference/labs/environment.md
+!/tech/T1.35 MoE Inference/labs/lab-00-foundation/
+/tech/T1.35 MoE Inference/labs/lab-00-foundation/*
+!/tech/T1.35 MoE Inference/labs/lab-00-foundation/README.md
+!/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/
+/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/*
+!/tech/T1.35 MoE Inference/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/
+/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/*
+!/tech/T1.35 MoE Inference/labs/lab-02-boundary-case/README.md
+!/tech/T1.36 Speculative Decoding /labs/
+/tech/T1.36 Speculative Decoding /labs/*
+!/tech/T1.36 Speculative Decoding /labs/README.md
+!/tech/T1.36 Speculative Decoding /labs/environment.md
+!/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/
+/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/*
+!/tech/T1.36 Speculative Decoding /labs/lab-00-foundation/README.md
+!/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/
+/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/*
+!/tech/T1.36 Speculative Decoding /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/
+/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/*
+!/tech/T1.36 Speculative Decoding /labs/lab-02-boundary-case/README.md
+!/tech/T1.37 vLLM Internals /labs/
+/tech/T1.37 vLLM Internals /labs/*
+!/tech/T1.37 vLLM Internals /labs/README.md
+!/tech/T1.37 vLLM Internals /labs/environment.md
+!/tech/T1.37 vLLM Internals /labs/lab-00-foundation/
+/tech/T1.37 vLLM Internals /labs/lab-00-foundation/*
+!/tech/T1.37 vLLM Internals /labs/lab-00-foundation/README.md
+!/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/
+/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/*
+!/tech/T1.37 vLLM Internals /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/
+/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/*
+!/tech/T1.37 vLLM Internals /labs/lab-02-boundary-case/README.md
+!/tech/T1.38 SGLang Architecture/labs/
+/tech/T1.38 SGLang Architecture/labs/*
+!/tech/T1.38 SGLang Architecture/labs/README.md
+!/tech/T1.38 SGLang Architecture/labs/environment.md
+!/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/
+/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/*
+!/tech/T1.38 SGLang Architecture/labs/lab-00-foundation/README.md
+!/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/
+/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/*
+!/tech/T1.38 SGLang Architecture/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/
+/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/*
+!/tech/T1.38 SGLang Architecture/labs/lab-02-boundary-case/README.md
+!/tech/T1.39 Tensor-RT LLM /labs/
+/tech/T1.39 Tensor-RT LLM /labs/*
+!/tech/T1.39 Tensor-RT LLM /labs/README.md
+!/tech/T1.39 Tensor-RT LLM /labs/environment.md
+!/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/
+/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/*
+!/tech/T1.39 Tensor-RT LLM /labs/lab-00-foundation/README.md
+!/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/
+/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/*
+!/tech/T1.39 Tensor-RT LLM /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/
+/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/*
+!/tech/T1.39 Tensor-RT LLM /labs/lab-02-boundary-case/README.md
+!/tech/T1.40 NVIDIA Dynamo /labs/
+/tech/T1.40 NVIDIA Dynamo /labs/*
+!/tech/T1.40 NVIDIA Dynamo /labs/README.md
+!/tech/T1.40 NVIDIA Dynamo /labs/environment.md
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/
+/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/*
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-00-foundation/README.md
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/
+/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/*
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-01-controlled-sweep/README.md
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/
+/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/*
+!/tech/T1.40 NVIDIA Dynamo /labs/lab-02-boundary-case/README.md
+!/tech/T1.41 Profiling/labs/
+/tech/T1.41 Profiling/labs/*
+!/tech/T1.41 Profiling/labs/README.md
+!/tech/T1.41 Profiling/labs/environment.md
+!/tech/T1.41 Profiling/labs/lab-00-foundation/
+/tech/T1.41 Profiling/labs/lab-00-foundation/*
+!/tech/T1.41 Profiling/labs/lab-00-foundation/README.md
+!/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/
+/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/*
+!/tech/T1.41 Profiling/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.41 Profiling/labs/lab-02-boundary-case/
+/tech/T1.41 Profiling/labs/lab-02-boundary-case/*
+!/tech/T1.41 Profiling/labs/lab-02-boundary-case/README.md
+!/tech/T1.42 GPU Observability/labs/
+/tech/T1.42 GPU Observability/labs/*
+!/tech/T1.42 GPU Observability/labs/README.md
+!/tech/T1.42 GPU Observability/labs/environment.md
+!/tech/T1.42 GPU Observability/labs/lab-00-foundation/
+/tech/T1.42 GPU Observability/labs/lab-00-foundation/*
+!/tech/T1.42 GPU Observability/labs/lab-00-foundation/README.md
+!/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/
+/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/*
+!/tech/T1.42 GPU Observability/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/
+/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/*
+!/tech/T1.42 GPU Observability/labs/lab-02-boundary-case/README.md
+!/tech/T1.43 Bottleneck Analysis/labs/
+/tech/T1.43 Bottleneck Analysis/labs/*
+!/tech/T1.43 Bottleneck Analysis/labs/README.md
+!/tech/T1.43 Bottleneck Analysis/labs/environment.md
+!/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/
+/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/*
+!/tech/T1.43 Bottleneck Analysis/labs/lab-00-foundation/README.md
+!/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/
+/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/*
+!/tech/T1.43 Bottleneck Analysis/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/
+/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/*
+!/tech/T1.43 Bottleneck Analysis/labs/lab-02-boundary-case/README.md
+!/tech/T1.44 Capacity Planning/labs/
+/tech/T1.44 Capacity Planning/labs/*
+!/tech/T1.44 Capacity Planning/labs/README.md
+!/tech/T1.44 Capacity Planning/labs/environment.md
+!/tech/T1.44 Capacity Planning/labs/lab-00-foundation/
+/tech/T1.44 Capacity Planning/labs/lab-00-foundation/*
+!/tech/T1.44 Capacity Planning/labs/lab-00-foundation/README.md
+!/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/
+/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/*
+!/tech/T1.44 Capacity Planning/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/
+/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/*
+!/tech/T1.44 Capacity Planning/labs/lab-02-boundary-case/README.md
+!/tech/T1.45 Inference Economics/labs/
+/tech/T1.45 Inference Economics/labs/*
+!/tech/T1.45 Inference Economics/labs/README.md
+!/tech/T1.45 Inference Economics/labs/environment.md
+!/tech/T1.45 Inference Economics/labs/lab-00-foundation/
+/tech/T1.45 Inference Economics/labs/lab-00-foundation/*
+!/tech/T1.45 Inference Economics/labs/lab-00-foundation/README.md
+!/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/
+/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/*
+!/tech/T1.45 Inference Economics/labs/lab-01-controlled-sweep/README.md
+!/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/
+/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/*
+!/tech/T1.45 Inference Economics/labs/lab-02-boundary-case/README.md
 # END T1.02-T1.45 exact Runpod lab guide allowlist
