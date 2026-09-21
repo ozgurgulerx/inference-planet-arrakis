@@ -18,6 +18,10 @@ A subject is complete only when I can explain the mechanism, predict its behavio
 
 The journal is intentionally idle until the core theory is complete and the hands-on model work begins.
 
+- Day 001
+- Day 002
+- Day 003
+
 ## T1 — Core inference engineering
 
 - [T1.01 — LLM Inference Lifecycle](inference-engineering-concepts/T1.01%20LLM%20Inference%20Lifecycle/README.md)
